@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Welleazy</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ea16b2b73c.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body class="site_body  voucher_page">
+    <div class="view_voucher_page bg_skyblue2 d-flex   justify-content-center align-items-center">
+        <div class="date_card">
+            <div class="card_header d-flex p-4 px-4p ">
+                <h6 class="ca">Select Date and Time</h6>
+                <button type="button" class="close ml-auto fw_400 h2 p-0 lh_1" data-dismiss="modal">&times;</button>
+            </div>
+            <hr class="m-0">
+            <div class="card_body py-4 px-5">
+                <div class="row m-0">
+                    <div class="col-md-6">
+                        <div class="cs_card time_card h-100">
+                            <div class="calender_wrap pt-3">
+                                <div style="display:flex;  flex-flow:column wrap; align-content: center;">
+
+                                    <!-- Mount calendar on root-->
+                                    <div id="root"></div>
+
+                                    <!-- For Demo Purposes-->
+<!--
+                                    <span><input id="input-mode" type="checkbox" value="multiple"> <label>Select multiple</label></span>
+                                    <br/>
+                                    <textarea id="input-date" placeholder="MM/DD/YYYY"></textarea>
+-->
+                                </div>
+
+
+
+                                <div id="root2"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 ">
+                        <div class="cs_card time_card h-100">
+                            <!-- Nav tabs -->
+                            <div class="card_header pt-2">
+                                <ul class="nav nav-tabs border-bottom justify-content-between">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-toggle="tab" href="#time_set1"><img src="images/Sunrise.png" alt=""></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#time_set2"><img src="images/sunnyDay.png" alt=""></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#time_set3"><img src="images/sunset.png" alt=""></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#time_set3"><img src="images/moon.png" alt="" width="25"></a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Tab panes -->
+                            <div class="tab-content card_body p-4">
+                                <div class="tab-pane container active p-0" id="time_set1">
+                                    <div class="d-flex time_hti justify-content-between flex-wrap">
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span class="active">1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                    </div>
+                                </div>
+                                <div class="tab-pane container fade" id="time_set2">
+                                    <div class="d-flex time_hti justify-content-between flex-wrap">
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                    </div>
+                                </div>
+                                <div class="tab-pane container fade" id="time_set3">
+                                    <div class="d-flex time_hti justify-content-between flex-wrap">
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                    </div>
+                                </div>
+                                <div class="tab-pane container fade" id="time_set4">
+                                    <div class="d-flex time_hti justify-content-between flex-wrap">
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                        <span>1:15 PM</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center pt-5">
+                    <a href="#" class="themebtn">Save</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--    ====================Modal End==================-->
+    <!--script-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/js/bootstrap-datepicker.min.js'></script>
+    <script src='js/site.js'></script>
+    <script src='js/script.js'></script>
+    <script>
+        $('docuement').ready(function() {
+            $('.time_hti >span').on('click', function() {
+                $('.time_hti >span').removeClass('active');
+                $(this).addClass('active');
+            });
+        });
+        //======Date Calender======
+
+        //======Date Calender======
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Welleazy</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ea16b2b73c.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/css/bootstrap-datepicker.min.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.4/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="site_body">
+    <!--    HEADER Start   -->
+    <!--    HEADER Start   -->
+    <header class="site_header">
+        <nav class="navbar navbar-expand-xl py-2 position-relative">
+
+            <div class="container px-0">
+                <!-- Logo -->
+                <a class="navbar-brand ease" href="index.html">
+                    <img src="images/logo.svg" alt="logo">
+                </a>
+                <!--collapse menu-->
+                <div class="collapse navbar-collapse justify-content-xl-end" id="collapsibleNavbar">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item"> <a class="nav-link active" href="#">Home</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#">About Us</a> </li>
+                        <li class="nav-item has-children"> <a class="nav-link" href="#">Corporate Wellness Services </a>
+                        </li>
+                        <li class="nav-item"> <a class="nav-link" href="our_services.html">Our Services</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#">Pharmacy</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#">Book Lab Test</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#">HRA</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#">FAQ’s</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#">Contact Us</a> </li>
+                    </ul>
+                </div>
+                <!--collapse menu-->
+                <div class="clt_nav nav ml-2">
+                    <a href="#" class="cs_cart cs_icon"></a>
+                    <a href="#" class="cs_wallet cs_icon"></a>
+                    <a href="#" class="cs_notification cs_icon"><span class="cs_badge">3</span></a>
+                    <a href="#" class="cs_user cs_icon"></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--    HEADER END   -->
+
+    <!--    CONTENT START     -->
+    <main id="main" class="site-main">
+
+        <!--========breadcrumb========-->
+        <nav class="cs_breadcrumb py-4">
+            <div class="container">
+                <ul class="nav fz_13">
+                    <li><a href="index.html">Home</a></li>
+                    <li><span class='c_page'> Cart</span></li>
+                </ul>
+            </div>
+        </nav>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <a href="#" class="text-md fw-bold">
+                            <!-- <i class="fa fa-angle-left" aria-hidden="true"></i> -->
+                            CART</a>
+                    </div>
+                    <div class="col-md-6 text-md-right">
+                        <a href="#" class="add-more-btn">ADD MORE TESTS</a>
+                    </div>
+                </div>
+                <div class="row pt-4">
+                    <div class="col-md-12">
+                        <div class="accordion" id="accordionExample">
+                            <div class="card">
+                              <div class="card-header" id="headingOne">
+                                <h5 class="accordion-btn collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    <span>Manju</span>
+                                    <button class="justify-content-center themebtn2 btn_blue" data-toggle="modal" data-target="#dateCard">Select Date and Time <img src="img/calendar.png" alt="" class="ml-2 cal-icon"></button>
+                                    <span class="accordion-icon">
+                                        <i class="fa-solid fa-plus"></i>
+                                        <i class="fa-solid fa-minus"></i>
+                                    </span>
+                                </h5>
+                              </div>
+                              <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div class="lab-list no-shadow no-border">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-6">
+                                                <div class="row align-items-center">
+                                                    <div class="col-md-1">
+                                                        <div class="cs_checkbox square mb-0">
+                                                            <input class="form-check-input" type="checkbox" id="lab_1" required="">
+                                                            <label class="form-check-label mr-auto" for="lab_1"> </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="img/thumb-rounded.png" alt="" class="ll-thumb">
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <h6 class="gray-text">Liver Function</h6>
+                                                        <div class="text_sm gray-text">Manju (Self)</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 d-flex justify-content-xl-end">
+                                                <div class="mr-xl-5">Rs 300.00</div>
+                                                <a href="#" class="ll-cross"><img src="img/cross.svg" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="lab-list no-shadow no-border">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-6">
+                                                <div class="row align-items-center">
+                                                    <div class="col-md-1">
+                                                        <div class="cs_checkbox square mb-0">
+                                                            <input class="form-check-input" type="checkbox" id="lab_2" required="">
+                                                            <label class="form-check-label mr-auto" for="lab_2"> </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="img/thumb-rounded.png" alt="" class="ll-thumb">
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <h6 class="gray-text">Covid 19</h6>
+                                                        <div class="text_sm gray-text">Manju (Self)</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 d-flex justify-content-xl-end">
+                                                <div class="mr-xl-5">Rs 300.00</div>
+                                                <a href="#" class="ll-cross"><img src="img/cross.svg" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="lab-list no-shadow no-border">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-6">
+                                                <div class="row align-items-center">
+                                                    <div class="col-md-1">
+                                                        <div class="cs_checkbox square mb-0">
+                                                            <input class="form-check-input" type="checkbox" id="lab_3" required="">
+                                                            <label class="form-check-label mr-auto" for="lab_3"> </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="img/thumb-rounded.png" alt="" class="ll-thumb">
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <h6 class="gray-text">Lipid Profile</h6>
+                                                        <div class="text_sm gray-text">Manju (Self)</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 d-flex justify-content-xl-end">
+                                                <div class="mr-xl-5">Rs 300.00</div>
+                                                <a href="#" class="ll-cross"><img src="img/cross.svg" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="lab-list no-shadow no-border">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-6">
+                                                <div class="row align-items-center">
+                                                    <div class="col-md-1">
+                                                        <div class="cs_checkbox square mb-0">
+                                                            <input class="form-check-input" type="checkbox" id="lab_4" required="">
+                                                            <label class="form-check-label mr-auto" for="lab_4"> </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="img/thumb-rounded.png" alt="" class="ll-thumb">
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <h6 class="gray-text">Thyroid</h6>
+                                                        <div class="text_sm gray-text">Manju (Self)</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 d-flex justify-content-xl-end">
+                                                <div class="mr-xl-5">Rs 300.00</div>
+                                                <a href="#" class="ll-cross"><img src="img/cross.svg" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="lab-list no-shadow no-border">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-6">
+                                                <div class="row align-items-center">
+                                                    <div class="col-md-1">
+                                                        <div class="cs_checkbox square mb-0">
+                                                            <input class="form-check-input" type="checkbox" id="lab_5" required="">
+                                                            <label class="form-check-label mr-auto" for="lab_5"> </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="img/thumb-rounded.png" alt="" class="ll-thumb">
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <h6 class="gray-text">Urine Test</h6>
+                                                        <div class="text_sm gray-text">Manju (Self)</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 d-flex justify-content-xl-end">
+                                                <div class="mr-xl-5">Rs 300.00</div>
+                                                <a href="#" class="ll-cross"><img src="img/cross.svg" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <div class="card-header" id="headingTwo">
+                                <h5 class="accordion-btn collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <span>Rajesh (Father)</span>
+                                    <span class="text-md gray-text">Appointment Scheduled for 13 July 4:30 PM</span>
+                                    <span class="accordion-icon">
+                                        <i class="fa-solid fa-plus"></i>
+                                        <i class="fa-solid fa-minus"></i>
+                                    </span>
+                                </h5>
+                              </div>
+                              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div class="lab-list no-shadow no-border">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-6">
+                                                <div class="row align-items-center">
+                                                    <div class="col-md-1">
+                                                        <div class="cs_checkbox square mb-0">
+                                                            <input class="form-check-input" type="checkbox" id="lab_2_1" required="">
+                                                            <label class="form-check-label mr-auto" for="lab_2_1"> </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="img/thumb-rounded.png" alt="" class="ll-thumb">
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <h6 class="gray-text">Liver Function</h6>
+                                                        <div class="text_sm gray-text">Manju (Self)</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 d-flex justify-content-xl-end">
+                                                <div class="mr-xl-5">Rs 300.00</div>
+                                                <a href="#" class="ll-cross"><img src="img/cross.svg" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="lab-list no-shadow no-border">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-6">
+                                                <div class="row align-items-center">
+                                                    <div class="col-md-1">
+                                                        <div class="cs_checkbox square mb-0">
+                                                            <input class="form-check-input" type="checkbox" id="lab_2_2" required="">
+                                                            <label class="form-check-label mr-auto" for="lab_2_2"> </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="img/thumb-rounded.png" alt="" class="ll-thumb">
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <h6 class="gray-text">Covid 19</h6>
+                                                        <div class="text_sm gray-text">Manju (Self)</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 d-flex justify-content-xl-end">
+                                                <div class="mr-xl-5">Rs 300.00</div>
+                                                <a href="#" class="ll-cross"><img src="img/cross.svg" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="lab-list no-shadow no-border">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-6">
+                                                <div class="row align-items-center">
+                                                    <div class="col-md-1">
+                                                        <div class="cs_checkbox square mb-0">
+                                                            <input class="form-check-input" type="checkbox" id="lab_2_3" required="">
+                                                            <label class="form-check-label mr-auto" for="lab_2_3"> </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="img/thumb-rounded.png" alt="" class="ll-thumb">
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <h6 class="gray-text">Lipid Profile</h6>
+                                                        <div class="text_sm gray-text">Manju (Self)</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 d-flex justify-content-xl-end">
+                                                <div class="mr-xl-5">Rs 300.00</div>
+                                                <a href="#" class="ll-cross"><img src="img/cross.svg" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="lab-list no-shadow no-border">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-6">
+                                                <div class="row align-items-center">
+                                                    <div class="col-md-1">
+                                                        <div class="cs_checkbox square mb-0">
+                                                            <input class="form-check-input" type="checkbox" id="lab_2_4" required="">
+                                                            <label class="form-check-label mr-auto" for="lab_2_4"> </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="img/thumb-rounded.png" alt="" class="ll-thumb">
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <h6 class="gray-text">Thyroid</h6>
+                                                        <div class="text_sm gray-text">Manju (Self)</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 d-flex justify-content-xl-end">
+                                                <div class="mr-xl-5">Rs 300.00</div>
+                                                <a href="#" class="ll-cross"><img src="img/cross.svg" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="lab-list no-shadow no-border">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-6">
+                                                <div class="row align-items-center">
+                                                    <div class="col-md-1">
+                                                        <div class="cs_checkbox square mb-0">
+                                                            <input class="form-check-input" type="checkbox" id="lab_2_5" required="">
+                                                            <label class="form-check-label mr-auto" for="lab_2_5"> </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="img/thumb-rounded.png" alt="" class="ll-thumb">
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <h6 class="gray-text">Urine Test</h6>
+                                                        <div class="text_sm gray-text">Manju (Self)</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 d-flex justify-content-xl-end">
+                                                <div class="mr-xl-5">Rs 300.00</div>
+                                                <a href="#" class="ll-cross"><img src="img/cross.svg" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <div class="card-header" id="headingThree">
+                                <h5 class="accordion-btn collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <span>Reeta Devi (Mother)</span>
+                                    <span class="text-md gray-text">Appointment Scheduled for 13 July 4:30 PM</span>
+                                    <span class="accordion-icon">
+                                        <i class="fa-solid fa-plus"></i>
+                                        <i class="fa-solid fa-minus"></i>
+                                    </span>
+                                </h5>
+                              </div>
+                              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div class="lab-list no-shadow no-border">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-6">
+                                                <div class="row align-items-center">
+                                                    <div class="col-md-1">
+                                                        <div class="cs_checkbox square mb-0">
+                                                            <input class="form-check-input" type="checkbox" id="lab_3_1" required="">
+                                                            <label class="form-check-label mr-auto" for="lab_3_1"> </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="img/thumb-rounded.png" alt="" class="ll-thumb">
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <h6 class="gray-text">Liver Function</h6>
+                                                        <div class="text_sm gray-text">Manju (Self)</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 d-flex justify-content-xl-end">
+                                                <div class="mr-xl-5">Rs 300.00</div>
+                                                <a href="#" class="ll-cross"><img src="img/cross.svg" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="lab-list no-shadow no-border">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-6">
+                                                <div class="row align-items-center">
+                                                    <div class="col-md-1">
+                                                        <div class="cs_checkbox square mb-0">
+                                                            <input class="form-check-input" type="checkbox" id="lab_3_2" required="">
+                                                            <label class="form-check-label mr-auto" for="lab_3_2"> </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="img/thumb-rounded.png" alt="" class="ll-thumb">
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <h6 class="gray-text">Covid 19</h6>
+                                                        <div class="text_sm gray-text">Manju (Self)</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 d-flex justify-content-xl-end">
+                                                <div class="mr-xl-5">Rs 300.00</div>
+                                                <a href="#" class="ll-cross"><img src="img/cross.svg" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="lab-list no-shadow no-border">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-6">
+                                                <div class="row align-items-center">
+                                                    <div class="col-md-1">
+                                                        <div class="cs_checkbox square mb-0">
+                                                            <input class="form-check-input" type="checkbox" id="lab_3_3" required="">
+                                                            <label class="form-check-label mr-auto" for="lab_3_3"> </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="img/thumb-rounded.png" alt="" class="ll-thumb">
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <h6 class="gray-text">Lipid Profile</h6>
+                                                        <div class="text_sm gray-text">Manju (Self)</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 d-flex justify-content-xl-end">
+                                                <div class="mr-xl-5">Rs 300.00</div>
+                                                <a href="#" class="ll-cross"><img src="img/cross.svg" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="lab-list no-shadow no-border">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-6">
+                                                <div class="row align-items-center">
+                                                    <div class="col-md-1">
+                                                        <div class="cs_checkbox square mb-0">
+                                                            <input class="form-check-input" type="checkbox" id="lab_3_4" required="">
+                                                            <label class="form-check-label mr-auto" for="lab_3_4"> </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="img/thumb-rounded.png" alt="" class="ll-thumb">
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <h6 class="gray-text">Thyroid</h6>
+                                                        <div class="text_sm gray-text">Manju (Self)</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 d-flex justify-content-xl-end">
+                                                <div class="mr-xl-5">Rs 300.00</div>
+                                                <a href="#" class="ll-cross"><img src="img/cross.svg" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="lab-list no-shadow no-border">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-6">
+                                                <div class="row align-items-center">
+                                                    <div class="col-md-1">
+                                                        <div class="cs_checkbox square mb-0">
+                                                            <input class="form-check-input" type="checkbox" id="lab_3_5" required="">
+                                                            <label class="form-check-label mr-auto" for="lab_3_5"> </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <img src="img/thumb-rounded.png" alt="" class="ll-thumb">
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <h6 class="gray-text">Urine Test</h6>
+                                                        <div class="text_sm gray-text">Manju (Self)</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 d-flex justify-content-xl-end">
+                                                <div class="mr-xl-5">Rs 300.00</div>
+                                                <a href="#" class="ll-cross"><img src="img/cross.svg" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-12 text-xl-right">
+                        <a href="javascript:void(0);" data-toggle="modal" data-target="#upload_prescription" class="themebtn ">Proceed To Checkout</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--========breadcrumb End========-->
+        <footer class="site_footer position-relative">
+            <!--========Our Location===========-->
+            <section class=" our_location cs_py"
+                style="background: url(images/Our_Services/location_bg.png) no-repeat center top/contain;">
+                <div class="container pt-xl-3">
+                    <div class="col-xl-9 col-lg-10 mx-auto">
+                        <div class="row align-items-center">
+                            <div class="col-md-4 text-right pr-4">
+                                <h2 class="fz_h1 lh_1 m-0 fw_300"><span class="fw_700 d-block fz_85">Our</span>
+                                    Locations</h2>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="location_slider cs-arrow  ">
+                                    <div class="item p-2">
+                                        <figure class="text-center location_box px-3 px-xl-4">
+                                            <span class="cs_ratio">
+                                                <img src="images/Our_Services/mumbai.png" alt="">
+                                            </span>
+                                            <figcaption class='h6 ci pt-2'>
+                                                Mumbai
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="item p-2">
+                                        <figure class="text-center location_box px-3 px-xl-4">
+                                            <span class="cs_ratio">
+                                                <img src="images/Our_Services/DELHI-8.png" alt="">
+                                            </span>
+                                            <figcaption class='h6 ci pt-2'>
+                                                New Delhi
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="item p-2">
+                                        <figure class="text-center location_box px-3 px-xl-4">
+                                            <span class="cs_ratio">
+                                                <img src="images/Our_Services/BANGALORE-8.png" alt="">
+                                            </span>
+                                            <figcaption class='h6 ci pt-2'>
+                                                Bangalore
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="item p-2">
+                                        <figure class="text-center location_box px-3 px-xl-4">
+                                            <span class="cs_ratio">
+                                                <img src="images/Our_Services/JAIPUR-8.png" alt="">
+                                            </span>
+                                            <figcaption class='h6 ci pt-2'>
+                                                Jaipur
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="item p-2">
+                                        <figure class="text-center location_box px-3 px-xl-4">
+                                            <span class="cs_ratio">
+                                                <img src="images/Our_Services/KOLKATA-8.png" alt="">
+                                            </span>
+                                            <figcaption class='h6 ci pt-2'>
+                                                Kolkata
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="item p-2">
+                                        <figure class="text-center location_box px-3 px-xl-4">
+                                            <span class="cs_ratio">
+                                                <img src="images/Our_Services/LUCKNOW-8.png" alt="">
+                                            </span>
+                                            <figcaption class='h6 ci pt-2'>
+                                                Lucknow
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="item p-2">
+                                        <figure class="text-center location_box px-3 px-xl-4">
+                                            <span class="cs_ratio">
+                                                <img src="images/Our_Services/AHEMDABAD-8.png" alt="">
+                                            </span>
+                                            <figcaption class='h6 ci pt-2'>
+                                                Ahmedabad
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="item p-2">
+                                        <figure class="text-center location_box px-3 px-xl-4">
+                                            <span class="cs_ratio">
+                                                <img src="images/Our_Services/HYDERABAD-8.png" alt="">
+                                            </span>
+                                            <figcaption class='h6 ci pt-2'>
+                                                Hyderabad
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="item p-2">
+                                        <figure class="text-center location_box px-3 px-xl-4">
+                                            <span class="cs_ratio">
+                                                <img src="images/Our_Services/Chandigarh.png" alt="">
+                                            </span>
+                                            <figcaption class='h6 ci pt-2'>
+                                                Chandigarh
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="item p-2">
+                                        <figure class="text-center location_box px-3 px-xl-4">
+                                            <span class="cs_ratio">
+                                                <img src="images/Our_Services/srinagr.png" alt="">
+                                            </span>
+                                            <figcaption class='h6 ci pt-2'>
+                                                Srinagar
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="item p-2">
+                                        <figure class="text-center location_box px-3 px-xl-4">
+                                            <span class="cs_ratio">
+                                                <img src="images/Our_Services/kochi.png" alt="">
+                                            </span>
+                                            <figcaption class='h6 ci pt-2'>
+                                                Cochin
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--========Our Location End===========-->
+            <div class="newletter">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 col-xl-10 mx-auto">
+                            <div class="newletter_card">
+                                <div class="row align-items-center">
+                                    <div class="col-md-3">
+                                        <h2 class="lh_11 section_title m-0"><span class="fz_85">Subscribe</span><span
+                                                class="fw_300 d-block"> Newsletter</span></h2>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <form action="" class="">
+                                            <div class="position-relative">
+                                                <input type="email" class='form-control ' placeholder='Email Address'>
+                                                <button class="btn-null ca" type='submit'>
+                                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                                </button>
+                                            </div>
+                                            <p class="pt-2 fw_700 m-0">Get all the latest information on our products
+                                                and services, sign up for newsletter today.</p>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--========Our Location End===========-->
+            <div class="footer_main cs_pt" style="color:#bcd3e5;">
+                <div class="container py-5">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div class="row">
+                                <div class="col-md-6 lh_14">
+                                    <div class="pr-lg-5">
+                                        <a href="index.html" class="footer_logo p-0 col-xl-8 d-inline-block mb-3">
+                                            <img src="images/f_logo.png" alt="">
+                                        </a>
+                                        <p>Welleazy is a prominent healthtech company offering tailor made solutions to
+                                            its corporate customers making their health care needs accessible and
+                                            affordable.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 pt-4">
+                                    <h5 class='text-white'>Reach Us</h5>
+                                    <ul class="f_menu">
+                                        <li>
+                                            <a href="tel:+91-88840 00687">Phone: +91-88840 00687 </a>
+                                        </li>
+                                        <li>
+                                            <a href="mailto:hello@welleazy.com">Email:hello@welleazy.com </a>
+                                        </li>
+                                        <li>
+                                            <address>Address: No.31, 3rd Floor, 09th Main Road,<br> 6th Sector, HSR
+                                                Layout, Bangalore-560102</address>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 pt-4">
+                            <h5 class='text-white'>Quick Links</h5>
+                            <ul class="f_menu li_col_6">
+                                <li>
+                                    <a href="index.html"> Home </a>
+                                </li>
+                                <li>
+                                    <a href="index.html"> Career </a>
+                                </li>
+                                <li>
+                                    <a href="index.html"> About Us</a>
+                                </li>
+                                <li>
+                                    <a href="index.html"> Blog </a>
+                                </li>
+                                <li>
+                                    <a href="index.html"> Contact Us</a>
+                                </li>
+                                <li>
+                                    <a href="index.html"> Partner With Us </a>
+                                </li>
+                                <li>
+                                    <a href="index.html"> Corporate Wellness Services</a>
+                                </li>
+                                <li>
+                                    <a href="index.html"> Policies & Terms of use</a>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_secondary fz_13" style="background: #033D64;  color:#bcd3e5;">
+                <div class="container d-flex align-items-center pt-3">
+                    <p>Copyright © <a href="https://welleazy.com/" target='_blank' class="ci">welleazy.com</a> © 2022.
+                        All Rights Reserved.</p>
+                    <ul class="nav ml-auto mb-3 social_media ">
+                        <li><a href="https://www.facebook.com/" target="_blank"><i
+                                    class="fa-brands fa-square-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="f_fixed_link">
+                <a href="#" class=" themebtn " id='feedback_link'><img src="images/feedback.png" alt="" width="20"
+                        class="mr-2"> Feedback</a>
+                <a href="#" class=" themebtn" id="chat_link"><img src="images/chat.png" alt=""></a>
+            </div>
+        </footer>
+    </main>
+
+    <!--====================Modal Start==================-->
+    <div class="modal fadec modal_sm" id="dateCard">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header border-0">
+                    <h6 class="ca p-1">Select Date and Time</h6>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body text-center p-0">
+
+                    <div class="card_body py-4 px-5">
+                        <div class="row m-0">
+                            <div class="col-md-6">
+                                <div class="cs_card time_card h-100">
+                                    <div class="calender_wrap pt-3">
+                                        <div style="display:flex;  flex-flow:column wrap; align-content: center;">
+
+                                            <!-- Mount calendar on root-->
+                                            <div id="root"></div>
+
+                                            <!-- For Demo Purposes-->
+                                            <!--
+                                    <span><input id="input-mode" type="checkbox" value="multiple"> <label>Select multiple</label></span>
+                                    <br/>
+                                    <textarea id="input-date" placeholder="MM/DD/YYYY"></textarea>
+-->
+                                        </div>
+
+
+
+                                        <div id="root2"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 ">
+                                <div class="cs_card time_card h-100">
+                                    <!-- Nav tabs -->
+                                    <div class="card_header pt-2">
+                                        <ul class="nav nav-tabs border-bottom justify-content-between">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" data-toggle="tab" href="#time_set1"><img src="images/Sunrise.png" alt=""></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-toggle="tab" href="#time_set2"><img src="images/sunnyDay.png" alt=""></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-toggle="tab" href="#time_set3"><img src="images/sunset.png" alt=""></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-toggle="tab" href="#time_set3"><img src="images/moon.png" alt="" width="25"></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <!-- Tab panes -->
+                                    <div class="tab-content card_body p-4">
+                                        <div class="tab-pane container active p-0" id="time_set1">
+                                            <div class="d-flex time_hti justify-content-between flex-wrap">
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span class="active">1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane container fade" id="time_set2">
+                                            <div class="d-flex time_hti justify-content-between flex-wrap">
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane container fade" id="time_set3">
+                                            <div class="d-flex time_hti justify-content-between flex-wrap">
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane container fade" id="time_set4">
+                                            <div class="d-flex time_hti justify-content-between flex-wrap">
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center pt-5">
+                            <a href="#" class="themebtn" id='save_date_time' data-dismiss="modal" data-toggle="modal" data-target="#bookApp">Save</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Modal footer -->
+
+            </div>
+        </div>
+    </div>
+    <div class="modal fade cs_modal" id="upload_prescription" aria-modal="true" role="dialog">
+        <div class="modal-dialog modal-dialog-centered modal-md">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header border-0">
+                    <div class="blue-text fw-bold">Upload Prescription</div>
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body pt-0">
+                    <div class="fw-bold text-center">
+                        Please Upload prescription for the selected tests
+                    </div>
+                    <div class="row py-4">
+                        <div class="col-md-10 mx-auto">
+                            <div class="row cs_row10">
+                                <div class="col-md-6">
+                                    <a href="#" class="themebtn btn_center">Skip Prescription</a>
+                                </div>
+                                <div class="col-md-6">
+                                    <button data-dismiss="modal" data-toggle="modal" data-target="#upload_prescription_popup" class="themebtn btn_center">Upload Prescription</button>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 text_sm text-center">
+                            Disclaimer : Kindly carry the prescription to the diagnostic center if skipped uploading prescription
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+
+            </div>
+        </div>
+    </div>
+    <div class="modal fade cs_modal" id="upload_prescription_popup" aria-modal="true" role="dialog">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header border-0 pl-3">
+                    <h6 class="ca pl-3 pt-2">Upload Prescription 
+                        <div class="text_sm gray-text mt-1">* Prescription required for selected Test</div>
+                    </h6>
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body px-4 pt-1">
+                    <div class="px-2">
+                        <div class="row cs_row10">
+                            <div class="col-md-8">
+                                <form action="">
+                                    <div class="form-row">
+                                        <div class="col-md-6 mb-4">
+                                            <label for="usr">Record for</label>
+                                            <input type="text" class="form-control" id="usr" value="Radhika Sood">
+                                        </div>
+                                        <div class="col-md-6 mb-4">
+                                            <label>Record date*</label>
+                                            <div class="cal_input_warp">
+                                                <input type="date" id="inputDateCard3" class="form-control inputDateCard h-auto" placeholder="01/02/1999">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-4">
+                                            <label>Type of Record</label>
+                                            <div class="custom-select">
+                                            <select class="form-control">
+                                                <option>Prescription</option>
+                                                <option>Prescription</option>
+                                            </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-4">
+                                            <label>Record prescribed by* </label>
+                                            <input type="text" class="form-control" id="usr" value="Fortis Hospital">
+                                        </div>
+                                        <div class="col-md-12 mb-4">
+                                            <label>Additional Notes</label>
+                                            <input type="text" class="form-control" placeholder="Please add your notes here">
+                                        </div>
+                                    </div>
+                                </form>
+                                <div class="modal_upload_file pb-2 d-flex text-center">
+                                    <div class="file_input p-0">
+                                        <input type="file">
+                                        <a class="circle_btn themebtn btn_xsm btn_blue upload_file_js"><i class="fa-solid fa-upload mr-1"></i> Upload</a>
+                                        <div class="uploaded_file_name_wrap d-none">
+                                            <label class="label uploaded_file_name" data-js-label="" for="file_A1"> myfile.jpg
+                                            </label>
+                                            <button type="button" class="unselectFile btn_null">×</button>
+                                        </div>
+                                    </div>
+        
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <form>
+                                    <div class="form-row">
+                                        <div class="col-md-12 mb-4">
+                                            <label>Record name</label>
+                                            <div class="custom-select">
+                                            <select class="form-control">
+                                                <option>Covidshield</option>
+                                                <option>Covidshield</option>
+                                            </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <label>Select Test</label>
+                                            <select class="js-select2" multiple="multiple">
+                                                <option value="O1" data-badge="">Covid 19</option>
+                                                <option value="O2" data-badge="">Liver. Function</option>
+                                                <option value="O3" data-badge="">Thyroid</option>
+                                                <option value="O4" data-badge="">Lipid Profile</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="pt-2 row cs_row justify-content-xl-end">
+                            <div class="col-md-3">
+                                <div class="row cs_row">
+                                    <div class="col-md-6">
+                                        <a href="DLT-sponsored-checkout.html" type="submit" class="themebtn btn_center">Save</a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <a href="#" class="themebtn3 btn_center" data-dismiss="modal">Cancel</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Modal footer -->
+
+            </div>
+        </div>
+    </div>
+    <!--====================Modal End==================-->
+    <!--script-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.4/js/select2.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/js/bootstrap-datepicker.min.js'></script>
+    
+    <script src='js/site.js'></script>
+    <script src='js/script.js'></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

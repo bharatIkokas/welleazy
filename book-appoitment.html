@@ -1,0 +1,2494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Welleazy</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ea16b2b73c.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body class="site_body">
+    <!--    HEADER Start   -->
+    <header class="site_header">
+        <nav class="navbar navbar-expand-xl py-2 position-relative">
+
+            <div class="container px-0">
+                <!-- Logo -->
+                <a class="navbar-brand ease" href="index.html">
+                    <img src="images/logo.svg" alt="logo">
+                </a>
+                <!--collapse menu-->
+                <div class="collapse navbar-collapse justify-content-xl-end" id="collapsibleNavbar">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item"> <a class="nav-link active" href="index.html">Home</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#">About Us</a> </li>
+                        <li class="nav-item has-children"> <a class="nav-link" href="#">Corporate Wellness Services </a> </li>
+                        <li class="nav-item active"> <a class="nav-link" href="our_services.html">Our Services</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#">Pharmacy</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#">Book Lab Test</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#">HRA</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#">FAQ’s</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#">Contact Us</a> </li>
+                    </ul>
+                </div>
+                <!--collapse menu-->
+                <div class="clt_nav nav ml-2">
+                    <a href="#" class="cs_cart cs_icon"></a>
+                    <a href="#" class="cs_wallet cs_icon"></a>
+                    <a href="#" class="cs_notification cs_icon"><span class="cs_badge">3</span></a>
+                    <a href="#" class="cs_user cs_icon"></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--    HEADER END   -->
+
+    <!--    CONTENT START     -->
+    <main id="main" class="site-main">
+        <!--============Search Header=================-->
+        <div class="search_header pt-3">
+            <div class="container">
+                <div class="row row align-items-end">
+                    <div class="col-md-3">
+                        <form action="">
+                            <div class="position-relative location_search drp_warpper">
+                                <i class="location_icon"></i>
+                                <button class="change_ev themebtn2 btn_blue btn_sm ttu">Change</button>
+                                <input type="text" class="drp_input  form-control" placeholder="New Delhi">
+                                <div class="dropdown_user style_5">
+                                    <ul>
+                                        <li> Mumbai </li>
+                                        <li> Delhi </li>
+                                        <li> Bangalore </li>
+                                        <li> Hyderabad </li>
+                                        <li> Ahmedabad </li>
+                                        <li> Chennai </li>
+                                        <li> Kolkata </li>
+                                        <li> Surat </li>
+                                        <li> Pune </li>
+                                        <li> Jaipur </li>
+                                    </ul>
+
+
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col">
+                        <form action="">
+                            <div class="position-relative drp_warpper">
+                                <button type="submit" class="btn-null search_icon"><i class="fa-solid fa-magnifying-glass"></i></button>
+                                <input type="text" class="search_input drp_input form-control" placeholder="Search for Medicine and Health Products">
+                                <div class="dropdown_user style_5">
+                                    <ul>
+                                        <li> Herbal Supplements
+                                        </li>
+                                        <li> Coconut Water & Coconut Oil
+                                        </li>
+                                        <li> Cannabidiol (CBD)
+                                        </li>
+                                        <li> Activated Charcoal
+                                        </li>
+
+                                    </ul>
+
+
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="ml-auto text-right pl-3"><a href="book-appoitment.html" class="themebtn ">book appointment</a></div>
+                </div>
+            </div>
+        </div>
+        <!--========breadcrumb========-->
+        <nav class="cs_breadcrumb py-4">
+            <div class="container">
+                <ul class="nav fz_13">
+                    <li><a href="index.html">Home</a></li>
+                    <li><span class='c_page'>Consultation</span></li>
+                </ul>
+            </div>
+        </nav>
+        <!--========breadcrumb End========-->
+        <!--============Search Header End=================-->
+        <section class="">
+            <div class="container">
+                <ul class="nav nav-tabs cs_tabnav justify-content-between">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#cs_tab1">Physical Consultation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#cs_tab2">Video/Tele/Chat Consultation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#cs_tab3">Family Clinic</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#cs_tab4">International Consultation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#cs_tab5">Doctor @ home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#cs_tab6">Second Opinion</a>
+                    </li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div class="tab-pane container active p-0" id="cs_tab1">
+                        <div class="set_wrap pt-4">
+
+                             <div id="serv_step1">
+                                <div class="row form-row input_set">
+                                    <div class="col-md-4">
+                                        <div class="position-relative location_search drp_warpper full_border">
+                                            <i class="location_icon"></i>
+                                            <input type="text" class="drp_input  form-control" placeholder="Search Location">
+                                            <div class="dropdown_user style_5">
+                                                <ul>
+                                                    <li> Mumbai </li>
+                                                    <li> Delhi </li>
+                                                    <li> Bangalore </li>
+                                                    <li> Hyderabad </li>
+                                                    <li> Ahmedabad </li>
+                                                    <li> Chennai </li>
+                                                    <li> Kolkata </li>
+                                                    <li> Surat </li>
+                                                    <li> Pune </li>
+                                                    <li> Jaipur </li>
+                                                </ul>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="position-relative">
+                                            <div class="custom-select">
+                                            <select name="" id="" class="form-control">
+                                                <option value="">Search by Hospital</option>
+                                                <option value="">Options</option>
+                                            </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="position-relative">
+                                            <div class="custom-select">
+                                            <select name="" id="" class="form-control">
+                                                <option value="">Search by Specialities</option>
+                                                <option value="">Options</option>
+                                            </select>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="card_wrapper fz_85">
+                                    <i class="d-block py-3">Service: <span class="ca">0 out of Utilized</span></i>
+                                    <div class="row cs_row">
+                                        <div class="col-md-4 pb-4">
+                                            <div class="ser_card card p-3 h-100">
+                                                <div class="row pt-2 align-items-center">
+                                                    <div class="col-3">
+                                                        <span class='cs_ratio ratio_eq ratio_contain'>
+                                                            <img src="images/Our_Services/jiotr1.png" alt=""></span>
+                                                    </div>
+                                                    <div class="col-9 lh_15">
+                                                        <h5>Counseling</h5>
+                                                        <p>Emotional or mental health difficulties
+                                                            <br>Depression, Anxiety, Mental Stress, Trauma
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 pb-4">
+                                            <div class="ser_card card p-3 h-100">
+                                                <div class="row pt-2 align-items-center">
+                                                    <div class="col-3">
+                                                        <span class='cs_ratio ratio_eq ratio_contain'>
+                                                            <img src="images/Our_Services/jiotr2.png" alt="">
+                                                        </span>
+                                                    </div>
+                                                    <div class="col-9 lh_15">
+                                                        <h5>Covid Consultation</h5>
+                                                        <p>Treatment of Covid-19
+                                                            <br>Cough, Fever, Breathlessness
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 pb-4">
+                                            <div class="ser_card card p-3 h-100">
+                                                <div class="row pt-2 align-items-center">
+                                                    <div class="col-3">
+                                                        <span class='cs_ratio ratio_eq ratio_contain'>
+                                                            <img src="images/Our_Services/jiotr3.png" alt="">
+                                                        </span>
+                                                    </div>
+                                                    <div class="col-9 lh_15">
+                                                        <h5>Covid Consultation</h5>
+                                                        <p>Emotional or mental health difficulties
+                                                            <br>Depression, Anxiety, Mental Stress, Trauma
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 pb-4">
+                                            <div class="ser_card card p-3 h-100">
+                                                <div class="row pt-2 align-items-center">
+                                                    <div class="col-3">
+                                                        <span class='cs_ratio ratio_eq ratio_contain'>
+                                                            <img src="images/Our_Services/jiotr4.png" alt="">
+                                                        </span>
+                                                    </div>
+                                                    <div class="col-9 lh_15">
+                                                        <h5>Cold, Cough and Fever</h5>
+                                                        <p>For common health concerns
+                                                            <br>Fever, Eye Infection, Stomach Ache, Headache
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 pb-4">
+                                            <div class="ser_card card p-3 h-100">
+                                                <div class="row pt-2 align-items-center">
+                                                    <div class="col-3">
+                                                        <span class='cs_ratio ratio_eq ratio_contain'>
+                                                            <img src="images/Our_Services/jiotr5.png" alt="">
+                                                        </span>
+                                                    </div>
+                                                    <div class="col-9 lh_15">
+                                                        <h5>Colorectal Surgery</h5>
+                                                        <p>For disorders of rectum, anus, and colon
+                                                            <br>Inflammatory bowel disease, Fistula, Intestinal blockage
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 pb-4">
+                                            <div class="ser_card card p-3 h-100">
+                                                <div class="row pt-2 align-items-center">
+                                                    <div class="col-3">
+                                                        <span class='cs_ratio ratio_eq ratio_contain'>
+                                                            <img src="images/Our_Services/jiotr6.png" alt="">
+                                                        </span>
+                                                    </div>
+                                                    <div class="col-9 lh_15">
+                                                        <h5>Dermatology</h5>
+                                                        <p>Rashes, Pimples, Acne, Hairfall, Dandruff
+                                                            <br>Specialists for skin and hair treatments
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+                                                <a class="btn_to_serv_step2 stretched-link"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+
+                            <div id="serv_step2" class="d-none">
+                                <div class="row form-row input_set">
+                                    <div class="col-md-3">
+                                        <div class="position-relative location_search drp_warpper full_border">
+                                            <i class="location_icon"></i>
+                                            <input type="text" class="drp_input  form-control" placeholder="Search Location">
+                                            <div class="dropdown_user style_5">
+                                                <ul>
+                                                    <li> Mumbai </li>
+                                                    <li> Delhi </li>
+                                                    <li> Bangalore </li>
+                                                    <li> Hyderabad </li>
+                                                    <li> Ahmedabad </li>
+                                                    <li> Chennai </li>
+                                                    <li> Kolkata </li>
+                                                    <li> Surat </li>
+                                                    <li> Pune </li>
+                                                    <li> Jaipur </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="position-relative">
+                                            <div class="custom-select">
+                                            <select name="" id="" class="form-control">
+                                                <option value="">Search by Hospital</option>
+                                                <option value="">Options</option>
+                                            </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="position-relative">
+                                            <div class="custom-select">
+                                            <select name="" id="" class="form-control">
+                                                <option value="">Search by Specialities</option>
+                                                <option value="">Options</option>
+                                            </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="cal_input_warp">
+                                            <input type="date" class="form-control" placeholder="01/02/1999">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="pt-5 card_wrapper fz_85">
+                                    <div class="row cs_row">
+
+                                        <div class="col-md-4 pb-4 mb-2">
+                                            <div class="ser_card card p-3 h-100 card_profile">
+                                                <div class="row pt-2 ">
+                                                    <div class="col-4 pr-0">
+                                                        <span class='cs_ratio ratio_eq'>
+                                                            <img src="images/Our_Services/DocImg.png" alt=""></span>
+                                                    </div>
+                                                    <div class="col-8 lh_15">
+                                                        <h5 class="mb-1">Dr. Girish Panth</h5>
+                                                        <strong class="ca fz_90 lh_11 d-block mb-1">Dermatologist <br> 32 YRS Exp.</strong>
+                                                        <strong class="d-block fz_90  pb-2">MBBS, MD (Derma & Venereology)</strong>
+                                                        <a href="#" class="themebtn mt-1" data-toggle="modal" data-target="#bookApp">Book Appointment</a>
+                                                        <span class="fz_10 pl-3  pt-1 d-block">Available Tomorrow at 10:00 AM</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 pb-4 mb-2">
+                                            <div class="ser_card card p-3 h-100 card_profile">
+                                                <div class="row pt-2 ">
+                                                    <div class="col-4 pr-0">
+                                                        <span class='cs_ratio ratio_eq'>
+                                                            <img src="images/Our_Services/DocImg.png" alt=""></span>
+                                                    </div>
+                                                    <div class="col-8 lh_15">
+                                                        <h5 class="mb-1">Dr. Girish Panth</h5>
+                                                        <strong class="ca fz_90 lh_11 d-block mb-1">Dermatologist <br> 32 YRS Exp.</strong>
+                                                        <strong class="d-block fz_90  pb-2">MBBS, MD (Derma & Venereology)</strong>
+                                                        <a href="#" class="themebtn mt-1">Book Appointment</a>
+                                                        <span class="fz_10 pl-3  pt-1 d-block">Available Tomorrow at 10:00 AM</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 pb-4 mb-2">
+                                            <div class="ser_card card p-3 h-100 card_profile">
+                                                <div class="row pt-2 ">
+                                                    <div class="col-4 pr-0">
+                                                        <span class='cs_ratio ratio_eq'>
+                                                            <img src="images/Our_Services/DocImg.png" alt=""></span>
+                                                    </div>
+                                                    <div class="col-8 lh_15">
+                                                        <h5 class="mb-1">Dr. Girish Panth</h5>
+                                                        <strong class="ca fz_90 lh_11 d-block mb-1">Dermatologist <br> 32 YRS Exp.</strong>
+                                                        <strong class="d-block fz_90  pb-2">MBBS, MD (Derma & Venereology)</strong>
+                                                        <a href="#" class="themebtn mt-1">Book Appointment</a>
+                                                        <span class="fz_10 pl-3  pt-1 d-block">Available Tomorrow at 10:00 AM</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 pb-4 mb-2">
+                                            <div class="ser_card card p-3 h-100 card_profile">
+                                                <div class="row pt-2 ">
+                                                    <div class="col-4 pr-0">
+                                                        <span class='cs_ratio ratio_eq'>
+                                                            <img src="images/Our_Services/DocImg.png" alt=""></span>
+                                                    </div>
+                                                    <div class="col-8 lh_15">
+                                                        <h5 class="mb-1">Dr. Girish Panth</h5>
+                                                        <strong class="ca fz_90 lh_11 d-block mb-1">Dermatologist <br> 32 YRS Exp.</strong>
+                                                        <strong class="d-block fz_90  pb-2">MBBS, MD (Derma & Venereology)</strong>
+                                                        <a href="#" class="themebtn mt-1">Book Appointment</a>
+                                                        <span class="fz_10 pl-3  pt-1 d-block">Available Tomorrow at 10:00 AM</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 pb-4 mb-2">
+                                            <div class="ser_card card p-3 h-100 card_profile">
+                                                <div class="row pt-2 ">
+                                                    <div class="col-4 pr-0">
+                                                        <span class='cs_ratio ratio_eq'>
+                                                            <img src="images/Our_Services/DocImg.png" alt=""></span>
+                                                    </div>
+                                                    <div class="col-8 lh_15">
+                                                        <h5 class="mb-1">Dr. Girish Panth</h5>
+                                                        <strong class="ca fz_90 lh_11 d-block mb-1">Dermatologist <br> 32 YRS Exp.</strong>
+                                                        <strong class="d-block fz_90  pb-2">MBBS, MD (Derma & Venereology)</strong>
+                                                        <a href="#" class="themebtn mt-1">Book Appointment</a>
+                                                        <span class="fz_10 pl-3  pt-1 d-block">Available Tomorrow at 10:00 AM</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 pb-4 mb-2">
+                                            <div class="ser_card card p-3 h-100 card_profile">
+                                                <div class="row pt-2 ">
+                                                    <div class="col-4 pr-0">
+                                                        <span class='cs_ratio ratio_eq'>
+                                                            <img src="images/Our_Services/DocImg.png" alt=""></span>
+                                                    </div>
+                                                    <div class="col-8 lh_15">
+                                                        <h5 class="mb-1">Dr. Girish Panth</h5>
+                                                        <strong class="ca fz_90 lh_11 d-block mb-1">Dermatologist <br> 32 YRS Exp.</strong>
+                                                        <strong class="d-block fz_90  pb-2">MBBS, MD (Derma & Venereology)</strong>
+                                                        <a href="#" class="themebtn mt-1">Book Appointment</a>
+                                                        <span class="fz_10 pl-3  pt-1 d-block">Available Tomorrow at 10:00 AM</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--===================TAb 1 Physical Consultation End=====================-->
+                    <!--===================TAb 2 Video/Tele/Chat Consultation=====================-->
+                    <div class="tab-pane container fade p-0" id="cs_tab2">
+                        <div class="set_wrap pt-4">
+                            <div class="pt-3 card_wrapper fz_85">
+                                <div class="row cs_row">
+
+                                    <div class="col-md-4 pb-4 mb-2">
+                                        <div class="ser_card card p-3 h-100 card_profile">
+                                            <div class="row pt-2">
+                                                <div class="col-4 pr-3 ">
+                                                    <span class='cs_ratio ratio_eq'>
+                                                        <img src="images/Our_Services/DocImg.png" alt="">
+                                                    </span>
+                                                </div>
+                                                <div class="col-8 lh_15 pl-0 ">
+                                                    <h5 class="mb-1">Dr. Girish Panth</h5>
+                                                    <strong class="ca fz_90 lh_11 d-block mb-1">Dermatologist <br> 32 YRS Exp.</strong>
+                                                    <strong class="d-block fz_90">MBBS, MD (Derma & Venereology)</strong>
+                                                    <small class="d-block pb-2 fw_700">English, Hindi, Telugu, Kannada</small>
+                                                    <div class="pt-1 d-flex align-items-start">
+                                                        <div class="mr-1"><a href="#" class="themebtn2 btn_sm" data-toggle="modal" data-target="#bookApp2"><i class="fa-solid fa-phone mr-1 fz_95"></i> TELE</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available Tomorrow at 10:00 AM</span></div>
+                                                        <div class="mr-1"><a href="#" class="themebtn btn_sm mr-2" data-toggle="modal" data-target="#bookApp2"><i class="fa-solid fa-video fz_95 mr-1"></i> Video</a>
+                                                            <span class="d-block fz_9 lh_12 pt-1 text-center">Available After 1 Hour</span>
+                                                        </div>
+                                                        <div>
+                                                            <a href="#" class="themebtn3 btn_sm " data-toggle="modal" data-target="#bookApp2"><i class="fa-solid fa-comment fz_95 mr-1"></i> CHAT</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available In 2 Mins</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 pb-4 mb-2">
+                                        <div class="ser_card card p-3 h-100 card_profile">
+                                            <div class="row pt-2">
+                                                <div class="col-4 pr-3 ">
+                                                    <span class='cs_ratio ratio_eq'>
+                                                        <img src="images/Our_Services/DocImg.png" alt="">
+                                                    </span>
+                                                </div>
+                                                <div class="col-8 lh_15 pl-0 ">
+                                                    <h5 class="mb-1">Dr. Girish Panth</h5>
+                                                    <strong class="ca fz_90 lh_11 d-block mb-1">Dermatologist <br> 32 YRS Exp.</strong>
+                                                    <strong class="d-block fz_90">MBBS, MD (Derma & Venereology)</strong>
+                                                    <small class="d-block pb-2 fw_700">English, Hindi, Telugu, Kannada</small>
+                                                    <div class="pt-1 d-flex align-items-start">
+                                                        <div class="mr-1"><a href="#" class="themebtn2 btn_sm" data-toggle="modal" data-target="#bookApp2"><i class="fa-solid fa-phone mr-1 fz_95"></i> TELE</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available Tomorrow at 10:00 AM</span></div>
+                                                        <div class="mr-1"><a href="#" class="themebtn btn_sm mr-2" data-toggle="modal" data-target="#bookApp2"><i class="fa-solid fa-video fz_95 mr-1"></i> Video</a>
+                                                            <span class="d-block fz_9 lh_12 pt-1 text-center">Available After 1 Hour</span>
+                                                        </div>
+                                                        <div>
+                                                            <a href="#" class="themebtn3 btn_sm " data-toggle="modal" data-target="#bookApp2"><i class="fa-solid fa-comment fz_95 mr-1"></i> CHAT</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available In 2 Mins</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 pb-4 mb-2">
+                                        <div class="ser_card card p-3 h-100 card_profile">
+                                            <div class="row pt-2">
+                                                <div class="col-4 pr-3 ">
+                                                    <span class='cs_ratio ratio_eq'>
+                                                        <img src="images/Our_Services/DocImg.png" alt="">
+                                                    </span>
+                                                </div>
+                                                <div class="col-8 lh_15 pl-0 ">
+                                                    <h5 class="mb-1">Dr. Girish Panth</h5>
+                                                    <strong class="ca fz_90 lh_11 d-block mb-1">Dermatologist <br> 32 YRS Exp.</strong>
+                                                    <strong class="d-block fz_90">MBBS, MD (Derma & Venereology)</strong>
+                                                    <small class="d-block pb-2 fw_700">English, Hindi, Telugu, Kannada</small>
+                                                    <div class="pt-1 d-flex align-items-start">
+                                                        <div class="mr-1"><a href="#" class="themebtn2 btn_sm" data-toggle="modal" data-target="#bookApp2"><i class="fa-solid fa-phone mr-1 fz_95"></i> TELE</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available Tomorrow at 10:00 AM</span></div>
+                                                        <div class="mr-1"><a href="#" class="themebtn btn_sm mr-2" data-toggle="modal" data-target="#bookApp2"><i class="fa-solid fa-video fz_95 mr-1"></i> Video</a>
+                                                            <span class="d-block fz_9 lh_12 pt-1 text-center">Available After 1 Hour</span>
+                                                        </div>
+                                                        <div>
+                                                            <a href="#" class="themebtn3 btn_sm " data-toggle="modal" data-target="#bookApp2"><i class="fa-solid fa-comment fz_95 mr-1"></i> CHAT</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available In 2 Mins</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 pb-4 mb-2">
+                                        <div class="ser_card card p-3 h-100 card_profile">
+                                            <div class="row pt-2">
+                                                <div class="col-4 pr-3 ">
+                                                    <span class='cs_ratio ratio_eq'>
+                                                        <img src="images/Our_Services/DocImg.png" alt="">
+                                                    </span>
+                                                </div>
+                                                <div class="col-8 lh_15 pl-0 ">
+                                                    <h5 class="mb-1">Dr. Girish Panth</h5>
+                                                    <strong class="ca fz_90 lh_11 d-block mb-1">Dermatologist <br> 32 YRS Exp.</strong>
+                                                    <strong class="d-block fz_90">MBBS, MD (Derma & Venereology)</strong>
+                                                    <small class="d-block pb-2 fw_700">English, Hindi, Telugu, Kannada</small>
+                                                    <div class="pt-1 d-flex align-items-start">
+                                                        <div class="mr-1"><a href="#" class="themebtn2 btn_sm" data-toggle="modal" data-target="#bookApp2"><i class="fa-solid fa-phone mr-1 fz_95"></i> TELE</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available Tomorrow at 10:00 AM</span></div>
+                                                        <div class="mr-1"><a href="#" class="themebtn btn_sm mr-2" data-toggle="modal" data-target="#bookApp2"><i class="fa-solid fa-video fz_95 mr-1"></i> Video</a>
+                                                            <span class="d-block fz_9 lh_12 pt-1 text-center">Available After 1 Hour</span>
+                                                        </div>
+                                                        <div>
+                                                            <a href="#" class="themebtn3 btn_sm " data-toggle="modal" data-target="#bookApp2"><i class="fa-solid fa-comment fz_95 mr-1"></i> CHAT</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available In 2 Mins</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 pb-4 mb-2">
+                                        <div class="ser_card card p-3 h-100 card_profile">
+                                            <div class="row pt-2">
+                                                <div class="col-4 pr-3 ">
+                                                    <span class='cs_ratio ratio_eq'>
+                                                        <img src="images/Our_Services/DocImg.png" alt="">
+                                                    </span>
+                                                </div>
+                                                <div class="col-8 lh_15 pl-0 ">
+                                                    <h5 class="mb-1">Dr. Girish Panth</h5>
+                                                    <strong class="ca fz_90 lh_11 d-block mb-1">Dermatologist <br> 32 YRS Exp.</strong>
+                                                    <strong class="d-block fz_90">MBBS, MD (Derma & Venereology)</strong>
+                                                    <small class="d-block pb-2 fw_700">English, Hindi, Telugu, Kannada</small>
+                                                    <div class="pt-1 d-flex align-items-start">
+                                                        <div class="mr-1"><a href="#" class="themebtn2 btn_sm" data-toggle="modal" data-target="#bookApp2"><i class="fa-solid fa-phone mr-1 fz_95"></i> TELE</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available Tomorrow at 10:00 AM</span></div>
+                                                        <div class="mr-1"><a href="#" class="themebtn btn_sm mr-2" data-toggle="modal" data-target="#bookApp2"><i class="fa-solid fa-video fz_95 mr-1"></i> Video</a>
+                                                            <span class="d-block fz_9 lh_12 pt-1 text-center">Available After 1 Hour</span>
+                                                        </div>
+                                                        <div>
+                                                            <a href="#" class="themebtn3 btn_sm " data-toggle="modal" data-target="#bookApp2"><i class="fa-solid fa-comment fz_95 mr-1"></i> CHAT</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available In 2 Mins</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 pb-4 mb-2">
+                                        <div class="ser_card card p-3 h-100 card_profile">
+                                            <div class="row pt-2">
+                                                <div class="col-4 pr-3 ">
+                                                    <span class='cs_ratio ratio_eq'>
+                                                        <img src="images/Our_Services/DocImg.png" alt="">
+                                                    </span>
+                                                </div>
+                                                <div class="col-8 lh_15 pl-0 ">
+                                                    <h5 class="mb-1">Dr. Girish Panth</h5>
+                                                    <strong class="ca fz_90 lh_11 d-block mb-1">Dermatologist <br> 32 YRS Exp.</strong>
+                                                    <strong class="d-block fz_90">MBBS, MD (Derma & Venereology)</strong>
+                                                    <small class="d-block pb-2 fw_700">English, Hindi, Telugu, Kannada</small>
+                                                    <div class="pt-1 d-flex align-items-start">
+                                                        <div class="mr-1"><a href="#" class="themebtn2 btn_sm" data-toggle="modal" data-target="#bookApp2"><i class="fa-solid fa-phone mr-1 fz_95"></i> TELE</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available Tomorrow at 10:00 AM</span></div>
+                                                        <div class="mr-1"><a href="#" class="themebtn btn_sm mr-2" data-toggle="modal" data-target="#bookApp2"><i class="fa-solid fa-video fz_95 mr-1"></i> Video</a>
+                                                            <span class="d-block fz_9 lh_12 pt-1 text-center">Available After 1 Hour</span>
+                                                        </div>
+                                                        <div>
+                                                            <a href="#" class="themebtn3 btn_sm " data-toggle="modal" data-target="#bookApp2"><i class="fa-solid fa-comment fz_95 mr-1"></i> CHAT</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available In 2 Mins</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 pb-4 mb-2">
+                                        <div class="ser_card card p-3 h-100 card_profile">
+                                            <div class="row pt-2">
+                                                <div class="col-4 pr-3 ">
+                                                    <span class='cs_ratio ratio_eq'>
+                                                        <img src="images/Our_Services/DocImg.png" alt="">
+                                                    </span>
+                                                </div>
+                                                <div class="col-8 lh_15 pl-0 ">
+                                                    <h5 class="mb-1">Dr. Girish Panth</h5>
+                                                    <strong class="ca fz_90 lh_11 d-block mb-1">Dermatologist <br> 32 YRS Exp.</strong>
+                                                    <strong class="d-block fz_90">MBBS, MD (Derma & Venereology)</strong>
+                                                    <small class="d-block pb-2 fw_700">English, Hindi, Telugu, Kannada</small>
+                                                    <div class="pt-1 d-flex align-items-start">
+                                                        <div class="mr-1"><a href="#" class="themebtn2 btn_sm" data-toggle="modal" data-target="#bookApp2"><i class="fa-solid fa-phone mr-1 fz_95"></i> TELE</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available Tomorrow at 10:00 AM</span></div>
+                                                        <div class="mr-1"><a href="#" class="themebtn btn_sm mr-2" data-toggle="modal" data-target="#bookApp2"><i class="fa-solid fa-video fz_95 mr-1"></i> Video</a>
+                                                            <span class="d-block fz_9 lh_12 pt-1 text-center">Available After 1 Hour</span>
+                                                        </div>
+                                                        <div>
+                                                            <a href="#" class="themebtn3 btn_sm " data-toggle="modal" data-target="#bookApp2"><i class="fa-solid fa-comment fz_95 mr-1"></i> CHAT</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available In 2 Mins</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 pb-4 mb-2">
+                                        <div class="ser_card card p-3 h-100 card_profile">
+                                            <div class="row pt-2">
+                                                <div class="col-4 pr-3 ">
+                                                    <span class='cs_ratio ratio_eq'>
+                                                        <img src="images/Our_Services/DocImg.png" alt="">
+                                                    </span>
+                                                </div>
+                                                <div class="col-8 lh_15 pl-0 ">
+                                                    <h5 class="mb-1">Dr. Girish Panth</h5>
+                                                    <strong class="ca fz_90 lh_11 d-block mb-1">Dermatologist <br> 32 YRS Exp.</strong>
+                                                    <strong class="d-block fz_90">MBBS, MD (Derma & Venereology)</strong>
+                                                    <small class="d-block pb-2 fw_700">English, Hindi, Telugu, Kannada</small>
+                                                    <div class="pt-1 d-flex align-items-start">
+                                                        <div class="mr-1"><a href="#" class="themebtn2 btn_sm" data-toggle="modal" data-target="#bookApp2"><i class="fa-solid fa-phone mr-1 fz_95"></i> TELE</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available Tomorrow at 10:00 AM</span></div>
+                                                        <div class="mr-1"><a href="#" class="themebtn btn_sm mr-2" data-toggle="modal" data-target="#bookApp2"><i class="fa-solid fa-video fz_95 mr-1"></i> Video</a>
+                                                            <span class="d-block fz_9 lh_12 pt-1 text-center">Available After 1 Hour</span>
+                                                        </div>
+                                                        <div>
+                                                            <a href="#" class="themebtn3 btn_sm " data-toggle="modal" data-target="#bookApp2"><i class="fa-solid fa-comment fz_95 mr-1"></i> CHAT</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available In 2 Mins</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 pb-4 mb-2">
+                                        <div class="ser_card card p-3 h-100 card_profile">
+                                            <div class="row pt-2">
+                                                <div class="col-4 pr-3 ">
+                                                    <span class='cs_ratio ratio_eq'>
+                                                        <img src="images/Our_Services/DocImg.png" alt="">
+                                                    </span>
+                                                </div>
+                                                <div class="col-8 lh_15 pl-0 ">
+                                                    <h5 class="mb-1">Dr. Girish Panth</h5>
+                                                    <strong class="ca fz_90 lh_11 d-block mb-1">Dermatologist <br> 32 YRS Exp.</strong>
+                                                    <strong class="d-block fz_90">MBBS, MD (Derma & Venereology)</strong>
+                                                    <small class="d-block pb-2 fw_700">English, Hindi, Telugu, Kannada</small>
+                                                    <div class="pt-1 d-flex align-items-start">
+                                                        <div class="mr-1"><a href="#" class="themebtn2 btn_sm" data-toggle="modal" data-target="#bookApp2"><i class="fa-solid fa-phone mr-1 fz_95"></i> TELE</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available Tomorrow at 10:00 AM</span></div>
+                                                        <div class="mr-1"><a href="#" class="themebtn btn_sm mr-2" data-toggle="modal" data-target="#bookApp2"><i class="fa-solid fa-video fz_95 mr-1"></i> Video</a>
+                                                            <span class="d-block fz_9 lh_12 pt-1 text-center">Available After 1 Hour</span>
+                                                        </div>
+                                                        <div>
+                                                            <a href="#" class="themebtn3 btn_sm " data-toggle="modal" data-target="#bookApp2"><i class="fa-solid fa-comment fz_95 mr-1"></i> CHAT</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available In 2 Mins</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--===================TAb 3 Family Clinic=====================-->
+                    <div class="tab-pane container fade p-0" id="cs_tab3">
+                        <div class="set_wrap pt-4">
+                            <div class="pt-3 card_wrapper fz_85">
+                                <div class="row cs_row">
+
+                                    <div class="col-md-4 pb-4 mb-2">
+                                        <div class="ser_card card p-3 h-100 card_profile">
+                                            <div class="row pt-2">
+                                                <div class="col-4 pr-3 ">
+                                                    <span class='cs_ratio ratio_eq'>
+                                                        <img src="images/Our_Services/DocImg.png" alt="">
+                                                    </span>
+                                                </div>
+                                                <div class="col-8 lh_15 pl-0 ">
+                                                    <h5 class="mb-1">Dr. Girish Panth</h5>
+                                                    <strong class="ca fz_90 lh_11 d-block mb-1">Dermatologist <br> 32 YRS Exp.</strong>
+                                                    <strong class="d-block fz_90">MBBS, MD (Derma & Venereology)</strong>
+                                                    <small class="d-block pb-2 fw_700">English, Hindi, Telugu, Kannada</small>
+                                                    <div class="pt-1 d-flex align-items-start">
+                                                        <div class="mr-1"><a href="#" class="themebtn2 btn_sm" data-toggle="modal" data-target="#bookApp" data-confirmFlow='App_confirmed'><i class="fa-solid fa-phone mr-1 fz_95"></i> TELE</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available Tomorrow at 10:00 AM</span></div>
+                                                        <div class="mr-1"><a href="#" class="themebtn btn_sm mr-2" data-toggle="modal" data-target="#bookApp" data-confirmFlow='App_confirmed'><i class="fa-solid fa-video fz_95 mr-1"></i> Video</a>
+                                                            <span class="d-block fz_9 lh_12 pt-1 text-center">Available After 1 Hour</span>
+                                                        </div>
+                                                        <div>
+                                                            <a href="#" class="themebtn3 btn_sm " data-toggle="modal" data-target="#bookApp" data-confirmFlow='App_confirmed'><i class="fa-solid fa-comment fz_95 mr-1"></i> CHAT</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available In 2 Mins</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 pb-4 mb-2">
+                                        <div class="ser_card card p-3 h-100 card_profile">
+                                            <div class="row pt-2">
+                                                <div class="col-4 pr-3 ">
+                                                    <span class='cs_ratio ratio_eq'>
+                                                        <img src="images/Our_Services/DocImg.png" alt="">
+                                                    </span>
+                                                </div>
+                                                <div class="col-8 lh_15 pl-0 ">
+                                                    <h5 class="mb-1">Dr. Girish Panth</h5>
+                                                    <strong class="ca fz_90 lh_11 d-block mb-1">Dermatologist <br> 32 YRS Exp.</strong>
+                                                    <strong class="d-block fz_90">MBBS, MD (Derma & Venereology)</strong>
+                                                    <small class="d-block pb-2 fw_700">English, Hindi, Telugu, Kannada</small>
+                                                    <div class="pt-1 d-flex align-items-start">
+                                                        <div class="mr-1"><a href="#" class="themebtn2 btn_sm" data-toggle="modal" data-target="#bookApp2"><i class="fa-solid fa-phone mr-1 fz_95"></i> TELE</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available Tomorrow at 10:00 AM</span></div>
+                                                        <div class="mr-1"><a href="#" class="themebtn btn_sm mr-2" data-toggle="modal" data-target="#bookApp2"><i class="fa-solid fa-video fz_95 mr-1"></i> Video</a>
+                                                            <span class="d-block fz_9 lh_12 pt-1 text-center">Available After 1 Hour</span>
+                                                        </div>
+                                                        <div>
+                                                            <a href="#" class="themebtn3 btn_sm " data-toggle="modal" data-target="#bookApp2"><i class="fa-solid fa-comment fz_95 mr-1"></i> CHAT</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available In 2 Mins</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 pb-4 mb-2">
+                                        <div class="ser_card card p-3 h-100 card_profile">
+                                            <div class="row pt-2">
+                                                <div class="col-4 pr-3 ">
+                                                    <span class='cs_ratio ratio_eq'>
+                                                        <img src="images/Our_Services/DocImg.png" alt="">
+                                                    </span>
+                                                </div>
+                                                <div class="col-8 lh_15 pl-0 ">
+                                                    <h5 class="mb-1">Dr. Girish Panth</h5>
+                                                    <strong class="ca fz_90 lh_11 d-block mb-1">Dermatologist <br> 32 YRS Exp.</strong>
+                                                    <strong class="d-block fz_90">MBBS, MD (Derma & Venereology)</strong>
+                                                    <small class="d-block pb-2 fw_700">English, Hindi, Telugu, Kannada</small>
+                                                    <div class="pt-1 d-flex align-items-start">
+                                                        <div class="mr-1"><a href="#" class="themebtn2 btn_sm" data-toggle="modal" data-target="#bookApp2"><i class="fa-solid fa-phone mr-1 fz_95"></i> TELE</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available Tomorrow at 10:00 AM</span></div>
+                                                        <div class="mr-1"><a href="#" class="themebtn btn_sm mr-2" data-toggle="modal" data-target="#bookApp2"><i class="fa-solid fa-video fz_95 mr-1"></i> Video</a>
+                                                            <span class="d-block fz_9 lh_12 pt-1 text-center">Available After 1 Hour</span>
+                                                        </div>
+                                                        <div>
+                                                            <a href="#" class="themebtn3 btn_sm " data-toggle="modal" data-target="#bookApp2"><i class="fa-solid fa-comment fz_95 mr-1"></i> CHAT</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available In 2 Mins</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--===================TAb 4 International Consultaion=====================-->
+                    <div class="tab-pane container fade p-0" id="cs_tab4">
+                        <div class="set_wrap pt-4">
+                            <div class="pt-3 card_wrapper fz_85">
+                                <div class="row cs_row">
+
+                                    <div class="col-md-4 pb-4 mb-2">
+                                        <div class="ser_card card p-3 h-100 card_profile">
+                                            <div class="row pt-2">
+                                                <div class="col-4 pr-3 ">
+                                                    <span class='cs_ratio ratio_eq'>
+                                                        <img src="images/Our_Services/DocImg.png" alt="">
+                                                    </span>
+                                                </div>
+                                                <div class="col-8 lh_15 pl-0 ">
+                                                    <h5 class="mb-1">Dr. Girish Panth</h5>
+                                                    <strong class="ca fz_90 lh_11 d-block mb-1">Dermatologist <br> 32 YRS Exp.</strong>
+                                                    <strong class="d-block fz_90">MBBS, MD (Derma & Venereology)</strong>
+                                                    <div class="pt-1 d-flex align-items-start">
+                                                        <div class="mr-1"><a href="#" class="themebtn2 btn_sm btn_disabled" data-toggle="modal" data-target="#bookApp3"><i class="fa-solid fa-phone mr-1 fz_95"></i> TELE</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available Tomorrow at 10:00 AM</span></div>
+                                                        <div class="mr-1"><a href="#" class="themebtn btn_sm mr-2 btn_disabled" data-toggle="modal" data-target="#bookApp3"><i class="fa-solid fa-video fz_95 mr-1"></i> Video</a>
+                                                            <span class="d-block fz_9 lh_12 pt-1 text-center">Available After 1 Hour</span>
+                                                        </div>
+                                                        <div>
+                                                            <a href="#" class="themebtn3 btn_sm " data-toggle="modal" data-target="#bookApp3"><i class="fa-solid fa-comment fz_95 mr-1"></i> CHAT</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available In 2 Mins</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 pb-4 mb-2">
+                                        <div class="ser_card card p-3 h-100 card_profile">
+                                            <div class="row pt-2">
+                                                <div class="col-4 pr-3 ">
+                                                    <span class='cs_ratio ratio_eq'>
+                                                        <img src="images/Our_Services/DocImg.png" alt="">
+                                                    </span>
+                                                </div>
+                                                <div class="col-8 lh_15 pl-0 ">
+                                                    <h5 class="mb-1">Dr. Girish Panth</h5>
+                                                    <strong class="ca fz_90 lh_11 d-block mb-1">Dermatologist <br> 32 YRS Exp.</strong>
+                                                    <strong class="d-block fz_90">MBBS, MD (Derma & Venereology)</strong>
+                                                    <div class="pt-1 d-flex align-items-start">
+                                                        <div class="mr-1"><a href="#" class="themebtn2 btn_sm btn_disabled" data-toggle="modal" data-target="#bookApp3"><i class="fa-solid fa-phone mr-1 fz_95"></i> TELE</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available Tomorrow at 10:00 AM</span></div>
+                                                        <div class="mr-1"><a href="#" class="themebtn btn_sm mr-2 btn_disabled" data-toggle="modal" data-target="#bookApp3"><i class="fa-solid fa-video fz_95 mr-1"></i> Video</a>
+                                                            <span class="d-block fz_9 lh_12 pt-1 text-center">Available After 1 Hour</span>
+                                                        </div>
+                                                        <div>
+                                                            <a href="#" class="themebtn3 btn_sm " data-toggle="modal" data-target="#bookApp3"><i class="fa-solid fa-comment fz_95 mr-1"></i> CHAT</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available In 2 Mins</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 pb-4 mb-2">
+                                        <div class="ser_card card p-3 h-100 card_profile">
+                                            <div class="row pt-2">
+                                                <div class="col-4 pr-3 ">
+                                                    <span class='cs_ratio ratio_eq'>
+                                                        <img src="images/Our_Services/DocImg.png" alt="">
+                                                    </span>
+                                                </div>
+                                                <div class="col-8 lh_15 pl-0 ">
+                                                    <h5 class="mb-1">Dr. Girish Panth</h5>
+                                                    <strong class="ca fz_90 lh_11 d-block mb-1">Dermatologist <br> 32 YRS Exp.</strong>
+                                                    <strong class="d-block fz_90">MBBS, MD (Derma & Venereology)</strong>
+                                                    <div class="pt-1 d-flex align-items-start">
+                                                        <div class="mr-1"><a href="#" class="themebtn2 btn_sm btn_disabled" data-toggle="modal" data-target="#bookApp3"><i class="fa-solid fa-phone mr-1 fz_95"></i> TELE</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available Tomorrow at 10:00 AM</span></div>
+                                                        <div class="mr-1"><a href="#" class="themebtn btn_sm mr-2 btn_disabled" data-toggle="modal" data-target="#bookApp3"><i class="fa-solid fa-video fz_95 mr-1"></i> Video</a>
+                                                            <span class="d-block fz_9 lh_12 pt-1 text-center">Available After 1 Hour</span>
+                                                        </div>
+                                                        <div>
+                                                            <a href="#" class="themebtn3 btn_sm " data-toggle="modal" data-target="#bookApp3"><i class="fa-solid fa-comment fz_95 mr-1"></i> CHAT</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available In 2 Mins</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 pb-4 mb-2">
+                                        <div class="ser_card card p-3 h-100 card_profile">
+                                            <div class="row pt-2">
+                                                <div class="col-4 pr-3 ">
+                                                    <span class='cs_ratio ratio_eq'>
+                                                        <img src="images/Our_Services/DocImg.png" alt="">
+                                                    </span>
+                                                </div>
+                                                <div class="col-8 lh_15 pl-0 ">
+                                                    <h5 class="mb-1">Dr. Girish Panth</h5>
+                                                    <strong class="ca fz_90 lh_11 d-block mb-1">Dermatologist <br> 32 YRS Exp.</strong>
+                                                    <strong class="d-block fz_90">MBBS, MD (Derma & Venereology)</strong>
+                                                    <div class="pt-1 d-flex align-items-start">
+                                                        <div class="mr-1"><a href="#" class="themebtn2 btn_sm btn_disabled" data-toggle="modal" data-target="#bookApp3"><i class="fa-solid fa-phone mr-1 fz_95"></i> TELE</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available Tomorrow at 10:00 AM</span></div>
+                                                        <div class="mr-1"><a href="#" class="themebtn btn_sm mr-2 btn_disabled" data-toggle="modal" data-target="#bookApp3"><i class="fa-solid fa-video fz_95 mr-1"></i> Video</a>
+                                                            <span class="d-block fz_9 lh_12 pt-1 text-center">Available After 1 Hour</span>
+                                                        </div>
+                                                        <div>
+                                                            <a href="#" class="themebtn3 btn_sm " data-toggle="modal" data-target="#bookApp3"><i class="fa-solid fa-comment fz_95 mr-1"></i> CHAT</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available In 2 Mins</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 pb-4 mb-2">
+                                        <div class="ser_card card p-3 h-100 card_profile">
+                                            <div class="row pt-2">
+                                                <div class="col-4 pr-3 ">
+                                                    <span class='cs_ratio ratio_eq'>
+                                                        <img src="images/Our_Services/DocImg.png" alt="">
+                                                    </span>
+                                                </div>
+                                                <div class="col-8 lh_15 pl-0 ">
+                                                    <h5 class="mb-1">Dr. Girish Panth</h5>
+                                                    <strong class="ca fz_90 lh_11 d-block mb-1">Dermatologist <br> 32 YRS Exp.</strong>
+                                                    <strong class="d-block fz_90">MBBS, MD (Derma & Venereology)</strong>
+                                                    <div class="pt-1 d-flex align-items-start">
+                                                        <div class="mr-1"><a href="#" class="themebtn2 btn_sm btn_disabled" data-toggle="modal" data-target="#bookApp3"><i class="fa-solid fa-phone mr-1 fz_95"></i> TELE</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available Tomorrow at 10:00 AM</span></div>
+                                                        <div class="mr-1"><a href="#" class="themebtn btn_sm mr-2 btn_disabled" data-toggle="modal" data-target="#bookApp3"><i class="fa-solid fa-video fz_95 mr-1"></i> Video</a>
+                                                            <span class="d-block fz_9 lh_12 pt-1 text-center">Available After 1 Hour</span>
+                                                        </div>
+                                                        <div>
+                                                            <a href="#" class="themebtn3 btn_sm " data-toggle="modal" data-target="#bookApp3"><i class="fa-solid fa-comment fz_95 mr-1"></i> CHAT</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available In 2 Mins</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 pb-4 mb-2">
+                                        <div class="ser_card card p-3 h-100 card_profile">
+                                            <div class="row pt-2">
+                                                <div class="col-4 pr-3 ">
+                                                    <span class='cs_ratio ratio_eq'>
+                                                        <img src="images/Our_Services/DocImg.png" alt="">
+                                                    </span>
+                                                </div>
+                                                <div class="col-8 lh_15 pl-0 ">
+                                                    <h5 class="mb-1">Dr. Girish Panth</h5>
+                                                    <strong class="ca fz_90 lh_11 d-block mb-1">Dermatologist <br> 32 YRS Exp.</strong>
+                                                    <strong class="d-block fz_90">MBBS, MD (Derma & Venereology)</strong>
+                                                    <div class="pt-1 d-flex align-items-start">
+                                                        <div class="mr-1"><a href="#" class="themebtn2 btn_sm btn_disabled" data-toggle="modal" data-target="#bookApp3"><i class="fa-solid fa-phone mr-1 fz_95"></i> TELE</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available Tomorrow at 10:00 AM</span></div>
+                                                        <div class="mr-1"><a href="#" class="themebtn btn_sm mr-2 btn_disabled" data-toggle="modal" data-target="#bookApp3"><i class="fa-solid fa-video fz_95 mr-1"></i> Video</a>
+                                                            <span class="d-block fz_9 lh_12 pt-1 text-center">Available After 1 Hour</span>
+                                                        </div>
+                                                        <div>
+                                                            <a href="#" class="themebtn3 btn_sm " data-toggle="modal" data-target="#bookApp3"><i class="fa-solid fa-comment fz_95 mr-1"></i> CHAT</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available In 2 Mins</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--===================TAb 4 International Consultaion====================-->
+                    <!--===================TAb 5 Doctor At Home=====================-->
+                    <div class="tab-pane container fade p-0" id="cs_tab5">
+                        <div class="set_wrap pt-4">
+
+                            <div class="row form-row input_set">
+                                <div class="col-md-3">
+                                    <div class="position-relative location_search drp_warpper full_border">
+                                        <i class="location_icon"></i>
+                                        <input type="text" class="drp_input  form-control" placeholder="Search Location">
+                                        <div class="dropdown_user style_5">
+                                            <ul>
+                                                <li> Mumbai </li>
+                                                <li> Delhi </li>
+                                                <li> Bangalore </li>
+                                                <li> Hyderabad </li>
+                                                <li> Ahmedabad </li>
+                                                <li> Chennai </li>
+                                                <li> Kolkata </li>
+                                                <li> Surat </li>
+                                                <li> Pune </li>
+                                                <li> Jaipur </li>
+                                            </ul>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="position-relative">
+                                        <div class="custom-select">
+                                        <select name="" id="" class="form-control">
+                                            <option value="">Search by Hospital</option>
+                                            <option value="">Options</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="position-relative">
+                                        <div class="custom-select">
+                                        <select name="" id="" class="form-control">
+                                            <option value="">Search by Specialities</option>
+                                            <option value="">Options</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="cal_input_warp">
+                                        <input type="date" class="form-control" placeholder="01/02/1999">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="pt-5 card_wrapper fz_85">
+                                <div class="row cs_row">
+
+                                    <div class="col-md-4 pb-4 mb-2">
+                                        <div class="ser_card card p-3 h-100 card_profile">
+                                            <div class="row pt-2 ">
+                                                <div class="col-4 pr-0">
+                                                    <span class='cs_ratio ratio_eq'>
+                                                            <img src="images/Our_Services/DocImg.png" alt=""></span>
+                                                </div>
+                                                <div class="col-8 lh_15">
+                                                    <h5 class="mb-1">Dr. Girish Panth</h5>
+                                                    <strong class="ca fz_90 lh_11 d-block mb-1">Dermatologist <br> 32 YRS Exp.</strong>
+                                                    <strong class="d-block fz_90  pb-2">MBBS, MD (Derma & Venereology)</strong>
+                                                    <a href="#" class="themebtn mt-1" data-toggle="modal" data-target="#bookApp4">Book Appointment</a>
+                                                    <span class="fz_10 pl-3  pt-1 d-block">Available Tomorrow at 10:00 AM</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 pb-4 mb-2">
+                                        <div class="ser_card card p-3 h-100 card_profile">
+                                            <div class="row pt-2 ">
+                                                <div class="col-4 pr-0">
+                                                    <span class='cs_ratio ratio_eq'>
+                                                            <img src="images/Our_Services/DocImg.png" alt=""></span>
+                                                </div>
+                                                <div class="col-8 lh_15">
+                                                    <h5 class="mb-1">Dr. Girish Panth</h5>
+                                                    <strong class="ca fz_90 lh_11 d-block mb-1">Dermatologist <br> 32 YRS Exp.</strong>
+                                                    <strong class="d-block fz_90  pb-2">MBBS, MD (Derma & Venereology)</strong>
+                                                    <a href="#" class="themebtn mt-1" data-toggle="modal" data-target="#bookApp4">Book Appointment</a>
+                                                    <span class="fz_10 pl-3  pt-1 d-block">Available Tomorrow at 10:00 AM</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 pb-4 mb-2">
+                                        <div class="ser_card card p-3 h-100 card_profile">
+                                            <div class="row pt-2 ">
+                                                <div class="col-4 pr-0">
+                                                    <span class='cs_ratio ratio_eq'>
+                                                            <img src="images/Our_Services/DocImg.png" alt=""></span>
+                                                </div>
+                                                <div class="col-8 lh_15">
+                                                    <h5 class="mb-1">Dr. Girish Panth</h5>
+                                                    <strong class="ca fz_90 lh_11 d-block mb-1">Dermatologist <br> 32 YRS Exp.</strong>
+                                                    <strong class="d-block fz_90  pb-2">MBBS, MD (Derma & Venereology)</strong>
+                                                    <a href="#" class="themebtn mt-1" data-toggle="modal" data-target="#bookApp4">Book Appointment</a>
+                                                    <span class="fz_10 pl-3  pt-1 d-block">Available Tomorrow at 10:00 AM</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--===================Tab 5 End========================-->
+                    <!--===================TAb 6 Second Opinion=====================-->
+                    <div class="tab-pane container fade p-0" id="cs_tab6">
+                        <div class="set_wrap pt-4">
+
+                            <div class="row form-row input_set">
+                                <div class="col-md-3">
+                                    <div class="position-relative location_search drp_warpper full_border">
+                                        <i class="location_icon"></i>
+                                        <input type="text" class="drp_input  form-control" placeholder="Search Location">
+                                        <div class="dropdown_user style_5">
+                                            <ul>
+                                                <li> Mumbai </li>
+                                                <li> Delhi </li>
+                                                <li> Bangalore </li>
+                                                <li> Hyderabad </li>
+                                                <li> Ahmedabad </li>
+                                                <li> Chennai </li>
+                                                <li> Kolkata </li>
+                                                <li> Surat </li>
+                                                <li> Pune </li>
+                                                <li> Jaipur </li>
+                                            </ul>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="position-relative">
+                                        <div class="custom-select">
+                                        <select name="" id="" class="form-control">
+                                            <option value="">Search by Hospital</option>
+                                            <option value="">Options</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="position-relative">
+                                        <div class="custom-select">
+                                        <select name="" id="" class="form-control">
+                                            <option value="">Search by Specialities</option>
+                                            <option value="">Options</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="cal_input_warp">
+                                        <input type="date" class="form-control" placeholder="01/02/1999">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="pt-5 card_wrapper fz_85">
+                                <div class="row cs_row">
+
+                                    <div class="col-md-4 pb-4 mb-2">
+                                        <div class="ser_card card p-3 h-100 card_profile">
+                                            <div class="row pt-2">
+                                                <div class="col-4 pr-3 ">
+                                                    <span class='cs_ratio ratio_eq'>
+                                                        <img src="images/Our_Services/DocImg.png" alt="">
+                                                    </span>
+                                                </div>
+                                                <div class="col-8 lh_15 pl-0 ">
+                                                    <h5 class="mb-1">Dr. Girish Panth</h5>
+                                                    <strong class="ca fz_90 lh_11 d-block mb-1">Dermatologist <br> 32 YRS Exp.</strong>
+                                                    <strong class="d-block fz_90">MBBS, MD (Derma & Venereology)</strong>
+                                                    <small class="d-block pb-2 fw_700">English, Hindi, Telugu, Kannada</small>
+                                                    <div class="pt-1 d-flex align-items-start">
+                                                        <div class="mr-1"><a href="#" class="themebtn2 btn_sm" data-toggle="modal" data-target="#bookApp4"><i class="fa-solid fa-phone mr-1 fz_95"></i> TELE</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available Tomorrow at 10:00 AM</span></div>
+                                                        <div class="mr-1"><a href="#" class="themebtn btn_sm mr-2" data-toggle="modal" data-target="#bookApp4"><i class="fa-solid fa-video fz_95 mr-1"></i> Video</a>
+                                                            <span class="d-block fz_9 lh_12 pt-1 text-center">Available After 1 Hour</span>
+                                                        </div>
+                                                        <div>
+                                                            <a href="#" class="themebtn3 btn_sm " data-toggle="modal" data-target="#bookApp4"><i class="fa-solid fa-comment fz_95 mr-1"></i> CHAT</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available In 2 Mins</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 pb-4 mb-2">
+                                        <div class="ser_card card p-3 h-100 card_profile">
+                                            <div class="row pt-2">
+                                                <div class="col-4 pr-3 ">
+                                                    <span class='cs_ratio ratio_eq'>
+                                                        <img src="images/Our_Services/DocImg.png" alt="">
+                                                    </span>
+                                                </div>
+                                                <div class="col-8 lh_15 pl-0 ">
+                                                    <h5 class="mb-1">Dr. Girish Panth</h5>
+                                                    <strong class="ca fz_90 lh_11 d-block mb-1">Dermatologist <br> 32 YRS Exp.</strong>
+                                                    <strong class="d-block fz_90">MBBS, MD (Derma & Venereology)</strong>
+                                                    <small class="d-block pb-2 fw_700">English, Hindi, Telugu, Kannada</small>
+                                                    <div class="pt-1 d-flex align-items-start">
+                                                        <div class="mr-1"><a href="#" class="themebtn2 btn_sm" data-toggle="modal" data-target="#bookApp4"><i class="fa-solid fa-phone mr-1 fz_95"></i> TELE</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available Tomorrow at 10:00 AM</span></div>
+                                                        <div class="mr-1"><a href="#" class="themebtn btn_sm mr-2" data-toggle="modal" data-target="#bookApp4"><i class="fa-solid fa-video fz_95 mr-1"></i> Video</a>
+                                                            <span class="d-block fz_9 lh_12 pt-1 text-center">Available After 1 Hour</span>
+                                                        </div>
+                                                        <div>
+                                                            <a href="#" class="themebtn3 btn_sm " data-toggle="modal" data-target="#bookApp4"><i class="fa-solid fa-comment fz_95 mr-1"></i> CHAT</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available In 2 Mins</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 pb-4 mb-2">
+                                        <div class="ser_card card p-3 h-100 card_profile">
+                                            <div class="row pt-2">
+                                                <div class="col-4 pr-3 ">
+                                                    <span class='cs_ratio ratio_eq'>
+                                                        <img src="images/Our_Services/DocImg.png" alt="">
+                                                    </span>
+                                                </div>
+                                                <div class="col-8 lh_15 pl-0 ">
+                                                    <h5 class="mb-1">Dr. Girish Panth</h5>
+                                                    <strong class="ca fz_90 lh_11 d-block mb-1">Dermatologist <br> 32 YRS Exp.</strong>
+                                                    <strong class="d-block fz_90">MBBS, MD (Derma & Venereology)</strong>
+                                                    <small class="d-block pb-2 fw_700">English, Hindi, Telugu, Kannada</small>
+                                                    <div class="pt-1 d-flex align-items-start">
+                                                        <div class="mr-1"><a href="#" class="themebtn2 btn_sm" data-toggle="modal" data-target="#bookApp4"><i class="fa-solid fa-phone mr-1 fz_95"></i> TELE</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available Tomorrow at 10:00 AM</span></div>
+                                                        <div class="mr-1"><a href="#" class="themebtn btn_sm mr-2" data-toggle="modal" data-target="#bookApp4"><i class="fa-solid fa-video fz_95 mr-1"></i> Video</a>
+                                                            <span class="d-block fz_9 lh_12 pt-1 text-center">Available After 1 Hour</span>
+                                                        </div>
+                                                        <div>
+                                                            <a href="#" class="themebtn3 btn_sm " data-toggle="modal" data-target="#bookApp4"><i class="fa-solid fa-comment fz_95 mr-1"></i> CHAT</a><span class="d-block fz_9 lh_12 pt-1 text-center">Available In 2 Mins</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--===================Tab 6 End========================-->
+                </div>
+            </div>
+        </section>
+        <!--========Our Services===========-->
+        <!--========Our Services End===========-->
+        <footer class="site_footer position-relative">
+            <!--========Our Location===========-->
+            <section class=" our_location cs_py" style="background: url(images/Our_Services/location_bg.png) no-repeat center top/contain;">
+                <div class="container pt-xl-3">
+                    <div class="col-xl-9 col-lg-10 mx-auto">
+                        <div class="row align-items-center">
+                            <div class="col-md-4 text-right pr-4">
+                                <h2 class="fz_h1 lh_1 m-0 fw_300"><span class="fw_700 d-block fz_85">Our</span> Locations</h2>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="location_slider cs-arrow  ">
+                                    <div class="item p-2">
+                                        <figure class="text-center location_box px-3 px-xl-4">
+                                            <span class="cs_ratio">
+                                                <img src="images/Our_Services/mumbai.png" alt="">
+                                            </span>
+                                            <figcaption class='h6 ci pt-2'>
+                                                Mumbai
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="item p-2">
+                                        <figure class="text-center location_box px-3 px-xl-4">
+                                            <span class="cs_ratio">
+                                                <img src="images/Our_Services/DELHI-8.png" alt="">
+                                            </span>
+                                            <figcaption class='h6 ci pt-2'>
+                                                New Delhi
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="item p-2">
+                                        <figure class="text-center location_box px-3 px-xl-4">
+                                            <span class="cs_ratio">
+                                                <img src="images/Our_Services/BANGALORE-8.png" alt="">
+                                            </span>
+                                            <figcaption class='h6 ci pt-2'>
+                                                Bangalore
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="item p-2">
+                                        <figure class="text-center location_box px-3 px-xl-4">
+                                            <span class="cs_ratio">
+                                                <img src="images/Our_Services/JAIPUR-8.png" alt="">
+                                            </span>
+                                            <figcaption class='h6 ci pt-2'>
+                                                Jaipur
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="item p-2">
+                                        <figure class="text-center location_box px-3 px-xl-4">
+                                            <span class="cs_ratio">
+                                                <img src="images/Our_Services/KOLKATA-8.png" alt="">
+                                            </span>
+                                            <figcaption class='h6 ci pt-2'>
+                                                Kolkata
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="item p-2">
+                                        <figure class="text-center location_box px-3 px-xl-4">
+                                            <span class="cs_ratio">
+                                                <img src="images/Our_Services/LUCKNOW-8.png" alt="">
+                                            </span>
+                                            <figcaption class='h6 ci pt-2'>
+                                                Lucknow
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="item p-2">
+                                        <figure class="text-center location_box px-3 px-xl-4">
+                                            <span class="cs_ratio">
+                                                <img src="images/Our_Services/AHEMDABAD-8.png" alt="">
+                                            </span>
+                                            <figcaption class='h6 ci pt-2'>
+                                                Ahmedabad
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="item p-2">
+                                        <figure class="text-center location_box px-3 px-xl-4">
+                                            <span class="cs_ratio">
+                                                <img src="images/Our_Services/HYDERABAD-8.png" alt="">
+                                            </span>
+                                            <figcaption class='h6 ci pt-2'>
+                                                Hyderabad
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="item p-2">
+                                        <figure class="text-center location_box px-3 px-xl-4">
+                                            <span class="cs_ratio">
+                                                <img src="images/Our_Services/Chandigarh.png" alt="">
+                                            </span>
+                                            <figcaption class='h6 ci pt-2'>
+                                                Chandigarh
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="item p-2">
+                                        <figure class="text-center location_box px-3 px-xl-4">
+                                            <span class="cs_ratio">
+                                                <img src="images/Our_Services/srinagr.png" alt="">
+                                            </span>
+                                            <figcaption class='h6 ci pt-2'>
+                                                Srinagar
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="item p-2">
+                                        <figure class="text-center location_box px-3 px-xl-4">
+                                            <span class="cs_ratio">
+                                                <img src="images/Our_Services/kochi.png" alt="">
+                                            </span>
+                                            <figcaption class='h6 ci pt-2'>
+                                                Cochin
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--========Our Location End===========-->
+            <div class="newletter">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 col-xl-10 mx-auto">
+                            <div class="newletter_card">
+                                <div class="row align-items-center">
+                                    <div class="col-md-3">
+                                        <h2 class="lh_11 section_title m-0"><span class="fz_85">Subscribe</span><span class="fw_300 d-block"> Newsletter</span></h2>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <form action="" class="">
+                                            <div class="position-relative">
+                                                <input type="email" class='form-control ' placeholder='Email Address'>
+                                                <button class="btn-null ca" type='submit'>
+                                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                                </button>
+                                            </div>
+                                            <p class="pt-2 fw_700 m-0">Get all the latest information on our products and services, sign up for newsletter today.</p>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--========Our Location End===========-->
+            <div class="footer_main cs_pt" style="color:#bcd3e5;">
+                <div class="container py-5">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div class="row">
+                                <div class="col-md-6 lh_14">
+                                    <div class="pr-lg-5">
+                                        <a href="index.html" class="footer_logo p-0 col-xl-8 d-inline-block mb-3">
+                                            <img src="images/f_logo.png" alt="">
+                                        </a>
+                                        <p>Welleazy is a prominent healthtech company offering tailor made solutions to its corporate customers making their health care needs accessible and affordable.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 pt-4">
+                                    <h5 class='text-white'>Reach Us</h5>
+                                    <ul class="f_menu">
+                                        <li>
+                                            <a href="tel:+91-88840 00687">Phone: +91-88840 00687 </a>
+                                        </li>
+                                        <li>
+                                            <a href="mailto:hello@welleazy.com">Email:hello@welleazy.com </a>
+                                        </li>
+                                        <li>
+                                            <address>Address: No.31, 3rd Floor, 09th Main Road,<br> 6th Sector, HSR Layout, Bangalore-560102</address>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 pt-4">
+                            <h5 class='text-white'>Quick Links</h5>
+                            <ul class="f_menu li_col_6">
+                                <li>
+                                    <a href="index.html"> Home </a>
+                                </li>
+                                <li>
+                                    <a href="index.html"> Career </a>
+                                </li>
+                                <li>
+                                    <a href="index.html"> About Us</a>
+                                </li>
+                                <li>
+                                    <a href="index.html"> Blog </a>
+                                </li>
+                                <li>
+                                    <a href="index.html"> Contact Us</a>
+                                </li>
+                                <li>
+                                    <a href="index.html"> Partner With Us </a>
+                                </li>
+                                <li>
+                                    <a href="index.html"> Corporate Wellness Services</a>
+                                </li>
+                                <li>
+                                    <a href="index.html"> Policies & Terms of use</a>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_secondary fz_13" style="background: #033D64;  color:#bcd3e5;">
+                <div class="container d-flex align-items-center pt-3">
+                    <p>Copyright © <a href="https://welleazy.com/" target='_blank' class="ci">welleazy.com</a> © 2022. All Rights Reserved.</p>
+                    <ul class="nav ml-auto mb-3 social_media ">
+                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="f_fixed_link">
+                <a href="#" class=" themebtn" id='feedback_link'><img src="images/feedback.png" alt="" width="20" class="mr-2"> Feedback</a>
+                <a href="#" class=" themebtn" id="chat_link"><img src="images/chat.png" alt=""></a>
+            </div>
+        </footer>
+    </main>
+
+    <!--    ====================Modal Start==================-->
+    <!-- The Modal -->
+    <div class="modal fade cs_modal modal_md booking_modal" id="bookApp">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header border-0 pl-3">
+                    <h6 class="ca pl-3 pt-2">Book Appoinment</h6>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body px-4 pt-1">
+                    <div class="px-2">
+                        <div class="input_radiobtn cs_ratiobtn d-flex mb-4 self_dep">
+                            <div class="position-relative mr-4">
+                                <input type="radio" class="form-check-input Self" id='Self1' name="optradio" checked>
+                                <label class="form-check-label" for="Self1">Self
+                                </label>
+                            </div>
+                            <div class="position-relative  ">
+                                <input type="radio" class="form-check-input Dependent" id='Dependent1' name="optradio">
+                                <label class="form-check-label" for="Dependent1">Dependent
+                                </label>
+                            </div>
+
+                        </div>
+                        <div class="form_self">
+                            <form action="">
+                                <div class="form-row">
+                                    <div class="col-md-6 mb-4">
+                                        <label for="usr">Patient Name</label>
+                                        <input type="text" class="form-control" id="usr" value="Manju">
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label>City</label>
+                                        <div class="custom-select">
+                                        <select class="form-control">
+                                            <option>Delhi</option>
+                                            <option>Gurgaon</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label>Hospital Name</label>
+                                        <div class="custom-select">
+                                        <select class="form-control">
+                                            <option>Fortis Hospital</option>
+                                            <option value="">Options</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label>Docture Name </label>
+                                        <div class="custom-select">
+                                        <select class="form-control" readonly>
+                                            <option>Dr. Girish Panth</option>
+                                            <option>Dr. Rishiaj Sharma</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label>Docture Specialtiy</label>
+                                        <input type="text" class="form-control" placeholder="Dermalogistic" readonly>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label>Appointment Date and Time</label>
+                                        <div class="cal_input_warp">
+                                            <input type="text" id="inputDateCard1" class="form-control inputDateCard" placeholder="01/02/1999" data-dismiss="modal" data-toggle="modal" data-target="#dateCard">
+
+                                        </div>
+                                    </div>
+                                    <div class="col-12 mb-4">
+                                        <label for="comment">Comment:</label>
+                                        <textarea class="form-control" rows="1" id="comment" placeholder="Please add you symptoms"></textarea>
+                                    </div>
+
+
+                                </div>
+                            </form>
+                            <div class=" text-right mb-3">
+                                <button class="themebtn appointment_modal_btn" data-dismiss="modal" data-toggle="modal" data-target="#confirmed">Confirm Appointment</button>
+                            </div>
+                        </div>
+                        <div class='form_dependent d-none'>
+                            <form action="">
+                                <div class="form-row">
+                                    <div class="col-md-6 mb-4">
+                                        <label for="usr">Relationship</label>
+                                        <div class="custom-select">
+                                        <select class="form-control" readonly>
+                                            <option>Father</option>
+                                            <option>Mother</option>
+                                            <option>Brother</option>
+                                            <option>Sister</option>
+
+                                        </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label for="usr">Patient Name</label>
+                                        <input type="text" class="form-control" id="usr" value="Manju">
+                                    </div>
+
+                                    <div class="col-md-6 mb-4">
+                                        <label>Hospital Name</label>
+                                        <div class="custom-select">
+                                        <select class="form-control">
+                                            <option>Fortis Hospital</option>
+                                            <option value="">Options</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label>Docture Name </label>
+                                        <div class="custom-select">
+                                        <select class="form-control" readonly>
+                                            <option>Dr. Girish Panth</option>
+                                            <option>Dr. Rishiaj Sharma</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label>Docture Specialtiy</label>
+                                        <input type="text" class="form-control" placeholder="Dermalogistic" readonly>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label>Appointment Date and Time</label>
+                                        <div class="cal_input_warp">
+                                            <input type="text" id="inputDateCard2" class="form-control inputDateCard" placeholder="01/02/1999" data-dismiss="modal" data-toggle="modal" data-target="#dateCard">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label>City</label>
+                                        <div class="custom-select">
+                                        <select class="form-control">
+                                            <option>Delhi</option>
+                                            <option>Gurgaon</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 mb-4">
+                                        <label for="comment">Comment:</label>
+                                        <textarea class="form-control" rows="1" id="comment" placeholder="Please add you symptoms"></textarea>
+                                    </div>
+
+
+                                </div>
+                            </form>
+                            <div class=" text-right mb-3">
+                                <button class="themebtn appointment_modal_btn" data-dismiss="modal" data-toggle="modal" data-target="#confirmed">Confirm Appointment</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Modal footer -->
+
+            </div>
+        </div>
+    </div>
+    <!--    ====================Modal End==================-->
+    <!-- The Modal -->
+    <div class="modal fade cs_modal modal_md booking_modal" id="bookApp2">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header border-0 pl-3">
+                    <h6 class="ca pl-3 pt-2">Appoinment Details</h6>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body px-4 pt-1">
+                    <div class="px-2">
+                        <div class="input_radiobtn cs_ratiobtn d-flex mb-4 self_dep">
+                            <div class="position-relative mr-4">
+                                <input type="radio" class="form-check-input Self" id='Self2' name="optradio" checked>
+                                <label class="form-check-label" for="Self2">Self
+                                </label>
+                            </div>
+                            <div class="position-relative  ">
+                                <input type="radio" class="form-check-input Dependent" id='Dependent2' name="optradio">
+                                <label class="form-check-label" for="Dependent2">Dependent
+                                </label>
+                            </div>
+
+                        </div>
+                        <div class="form_self">
+                            <form action="">
+                                <div class="form-row">
+                                    <div class="col-md-6 mb-4">
+                                        <label for="usr">Patient Name</label>
+                                        <input type="text" class="form-control" id="usr" value="Manju">
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label>City</label>
+                                        <div class="custom-select">
+                                        <select class="form-control">
+                                            <option>Delhi</option>
+                                            <option>Gurgaon</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label>Hospital Name</label>
+                                        <div class="custom-select">
+                                        <select class="form-control">
+                                            <option>Fortis Hospital</option>
+                                            <option value="">Options</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label>Docture Name </label>
+                                        <div class="custom-select">
+                                        <select class="form-control" readonly>
+                                            <option>Dr. Girish Panth</option>
+                                            <option>Dr. Rishiaj Sharma</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label>Docture Specialtiy</label>
+                                        <input type="text" class="form-control" placeholder="Dermalogistic" readonly>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label>Appointment Date and Time</label>
+                                        <div class="cal_input_warp">
+                                            <input type="text" id="inputDateCard3" class="form-control inputDateCard" placeholder="01/02/1999" data-dismiss="modal" data-toggle="modal" data-target="#dateCard">
+
+                                        </div>
+                                    </div>
+                                    <div class="col-12 mb-4">
+                                        <label for="comment">Comment:</label>
+                                        <textarea class="form-control" rows="1" id="comment" placeholder="Please add you symptoms"></textarea>
+                                    </div>
+
+
+                                </div>
+                            </form>
+
+                            <div class="modal_upload_file pb-2 d-flex text-center">
+                                <div class='file_input p-0'>
+                                    <input type='file'>
+                                    <a class='circle_btn themebtn btn_xsm btn_blue upload_file_js'><i class="fa-solid fa-upload mr-1"></i> Upload</a>
+                                    <div class="uploaded_file_name_wrap d-none">
+                                        <label class='label uploaded_file_name' data-js-label for="file_A1"> myfile.jpg
+                                        </label>
+                                        <button type="button" class="unselectFile btn_null">×</button>
+                                    </div>
+                                </div>
+
+                                <button class="themebtn ml-auto" data-dismiss="modal" data-toggle="modal" data-target="#App_confirmed">Confirm Appointment</button>
+                            </div>
+                        </div>
+                        <div class='form_dependent d-none'>
+                            <form action="">
+                                <div class="form-row">
+                                    <div class="col-md-6 mb-4">
+                                        <label for="usr">Relationship</label>
+                                        <div class="custom-select">
+                                        <select class="form-control" readonly>
+                                            <option>Father</option>
+                                            <option>Mother</option>
+                                            <option>Brother</option>
+                                            <option>Sister</option>
+
+                                        </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label for="usr">Patient Name</label>
+                                        <input type="text" class="form-control" id="usr" value="Manju">
+                                    </div>
+
+                                    <div class="col-md-6 mb-4">
+                                        <label>Hospital Name</label>
+                                        <div class="custom-select">
+                                        <select class="form-control">
+                                            <option>Fortis Hospital</option>
+
+                                        </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label>Docture Name </label>
+                                        <div class="custom-select">
+                                        <select class="form-control" readonly>
+                                            <option>Dr. Girish Panth</option>
+                                            <option>Dr. Rishiaj Sharma</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label>Docture Specialtiy</label>
+                                        <input type="text" class="form-control" placeholder="Dermalogistic" readonly>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label>Appointment Date and Time</label>
+                                        <div class="cal_input_warp">
+                                            <input type="text" id="inputDateCard4" class="form-control inputDateCard" placeholder="01/02/1999" data-dismiss="modal" data-toggle="modal" data-target="#dateCard">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label>City</label>
+                                        <div class="custom-select">
+                                        <select class="form-control">
+                                            <option>Delhi</option>
+                                            <option>Gurgaon</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 mb-4">
+                                        <label for="comment">Comment:</label>
+                                        <textarea class="form-control" rows="1" id="comment" placeholder="Please add you symptoms"></textarea>
+                                    </div>
+
+
+                                </div>
+                            </form>
+                            <div class="modal_upload_file pb-2 d-flex text-center">
+                                <div class='file_input p-0'>
+                                    <input type='file'>
+                                    <a class='circle_btn themebtn btn_xsm btn_blue upload_file_js'><i class="fa-solid fa-upload mr-1"></i> Upload</a>
+                                    <div class="uploaded_file_name_wrap d-none">
+                                        <label class='label uploaded_file_name' data-js-label for="file_A1"> myfile.jpg
+                                        </label>
+                                        <button type="button" class="unselectFile btn_null">×</button>
+                                    </div>
+                                </div>
+
+                                <button class="themebtn ml-auto" data-dismiss="modal" data-toggle="modal" data-target="#App_confirmed">Confirm Appointment</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Modal footer -->
+
+            </div>
+        </div>
+    </div>
+    <!--    ====================Modal End==================-->
+    <!-- The Modal -->
+    <div class="modal fade cs_modal modal_md booking_modal" id="bookApp3">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header border-0 pl-3">
+                    <h6 class="ca pl-3 pt-2">Appoinment Details</h6>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body px-4 pt-1">
+                    <div class="px-2">
+                        <div class="input_radiobtn cs_ratiobtn d-flex mb-4 self_dep">
+                            <div class="position-relative mr-4">
+                                <input type="radio" class="form-check-input Self" id='Self3' name="optradio" checked>
+                                <label class="form-check-label" for="Self3">Self
+                                </label>
+                            </div>
+                            <div class="position-relative  ">
+                                <input type="radio" class="form-check-input Dependent" id='Dependent3' name="optradio">
+                                <label class="form-check-label" for="Dependent3">Dependent
+                                </label>
+                            </div>
+
+                        </div>
+                        <div class="form_self">
+                            <form action="">
+                                <div class="form-row">
+                                    <div class="col-md-6 mb-4">
+                                        <label for="usr">Patient Name</label>
+                                        <input type="text" class="form-control" id="usr" value="Manju">
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label>City</label>
+                                        <div class="custom-select">
+                                        <select class="form-control">
+                                            <option>Delhi</option>
+                                            <option>Gurgaon</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label>Hospital Name</label>
+                                        <div class="custom-select">
+                                        <select class="form-control">
+                                            <option>Fortis Hospital</option>
+                                            <option value="">Options</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label>Docture Name </label>
+                                        <div class="custom-select">
+                                        <select class="form-control" readonly>
+                                            <option>Dr. Girish Panth</option>
+                                            <option>Dr. Rishiaj Sharma</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label>Docture Specialtiy</label>
+                                        <input type="text" class="form-control" placeholder="Dermalogistic" readonly>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label>Appointment Date and Time</label>
+                                        <div class="cal_input_warp">
+                                            <input type="text" id="inputDateCard5" class="form-control inputDateCard" placeholder="01/02/1999" data-dismiss="modal" data-toggle="modal" data-target="#dateCard">
+
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                            </form>
+
+                            <div class="modal_upload_file pb-2 d-flex text-center">
+                                <div class='file_input p-0'>
+                                    <input type='file'>
+                                    <a class='circle_btn themebtn btn_xsm btn_blue upload_file_js'><i class="fa-solid fa-upload mr-1"></i> Upload</a>
+                                    <div class="uploaded_file_name_wrap d-none">
+                                        <label class='label uploaded_file_name' data-js-label for="file_A1"> myfile.jpg
+                                        </label>
+                                        <button type="button" class="unselectFile btn_null">×</button>
+                                    </div>
+                                </div>
+
+                                <button class="themebtn ml-auto" data-dismiss="modal" data-toggle="modal" data-target="#App_confirmed">Confirm Appointment</button>
+                            </div>
+                        </div>
+                        <div class='form_dependent d-none'>
+                            <form action="">
+                                <div class="form-row">
+                                    <div class="col-md-6 mb-4">
+                                        <label for="usr">Relationship</label>
+                                        <div class="custom-select">
+                                        <select class="form-control" readonly>
+                                            <option>Father</option>
+                                            <option>Mother</option>
+                                            <option>Brother</option>
+                                            <option>Sister</option>
+
+                                        </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label for="usr">Patient Name</label>
+                                        <input type="text" class="form-control" id="usr" value="Manju">
+                                    </div>
+
+                                    <div class="col-md-6 mb-4">
+                                        <label>Hospital Name</label>
+                                        <div class="custom-select">
+                                        <select class="form-control">
+                                            <option>Fortis Hospital</option>
+                                            <option value="">Options</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label>Docture Name </label>
+                                        <div class="custom-select">
+                                        <select class="form-control" readonly>
+                                            <option>Dr. Girish Panth</option>
+                                            <option>Dr. Rishiaj Sharma</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label>Docture Specialtiy</label>
+                                        <input type="text" class="form-control" placeholder="Dermalogistic" readonly>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label>Appointment Date and Time</label>
+                                        <div class="cal_input_warp">
+                                            <input type="text" id="inputDateCard6" class="form-control inputDateCard" placeholder="01/02/1999" data-dismiss="modal" data-toggle="modal" data-target="#dateCard">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label>City</label>
+                                        <div class="custom-select">
+                                        <select class="form-control">
+                                            <option>Delhi</option>
+                                            <option>Gurgaon</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 mb-4">
+                                        <label for="comment">Comment:</label>
+                                        <textarea class="form-control" rows="1" id="comment" placeholder="Please add you symptoms"></textarea>
+                                    </div>
+
+
+                                </div>
+                            </form>
+                            <div class="modal_upload_file pb-2 d-flex text-center">
+                                <div class='file_input p-0'>
+                                    <input type='file'>
+                                    <a class='circle_btn themebtn btn_xsm btn_blue upload_file_js'><i class="fa-solid fa-upload mr-1"></i> Upload</a>
+                                    <div class="uploaded_file_name_wrap d-none">
+                                        <label class='label uploaded_file_name' data-js-label for="file_A1"> myfile.jpg
+                                        </label>
+                                        <button type="button" class="unselectFile btn_null">×</button>
+                                    </div>
+                                </div>
+
+                                <button class="themebtn ml-auto" data-dismiss="modal" data-toggle="modal" data-target="#App_confirmed">Confirm Appointment</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Modal footer -->
+
+            </div>
+        </div>
+    </div>
+    <!--    ====================Modal End==================-->
+    <!-- The Modal -->
+    <div class="modal fade cs_modal modal_md booking_modal" id="bookApp4">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header border-0 pl-3">
+                    <h6 class="ca pl-3 pt-2">Appoinment Details</h6>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body px-4 pt-1">
+                    <div class="px-2">
+                        <div class="input_radiobtn cs_ratiobtn d-flex mb-4 self_dep">
+                            <div class="position-relative mr-4">
+                                <input type="radio" class="form-check-input Self" id='Self9' name="optradio" checked>
+                                <label class="form-check-label" for="Self9">Self
+                                </label>
+                            </div>
+                            <div class="position-relative  ">
+                                <input type="radio" class="form-check-input Dependent" id='Dependent10' name="optradio">
+                                <label class="form-check-label" for="Dependent10">Dependent
+                                </label>
+                            </div>
+
+                        </div>
+                        <div class="form_self">
+                            <form action="">
+                                <div class="form-row">
+                                    <div class="col-md-6 mb-4">
+                                        <label for="usr">Patient Name</label>
+                                        <input type="text" class="form-control" id="usr" value="Manju">
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label for="usr">Contact Number</label>
+                                        <input type="text" class="form-control" placeholder='+91 9356752464'>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label for="usr">Age</label>
+                                        <input type="text" class="form-control" placeholder='32'>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label>Gender</label>
+                                        <div class="custom-select">
+                                        <select class="form-control">
+                                            <option>Male</option>
+                                            <option>Female</option>
+                                            <option>Other</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label for="usr">Email Id</label>
+                                        <input type="email" class="form-control" placeholder='example@gamail.com'>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label>Appointment Date and Time</label>
+                                        <div class="cal_input_warp">
+                                            <input type="text" id="inputDateCard7" class="form-control inputDateCard" placeholder="01/02/1999" data-dismiss="modal" data-toggle="modal" data-target="#dateCard">
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label for="usr">Flat, House No,Apartment</label>
+                                        <input type="text" class="form-control" placeholder='Flat No. 801 Tower A Samridhi'>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label for="usr">Pincode</label>
+                                        <input type="text" class="form-control" placeholder='201307'>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label for="usr">Town/City</label>
+                                        <div class="custom-select">
+                                        <select class="form-control">
+                                            <option>Noida</option>
+                                            <option>Delhi</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label for="usr">State</label>
+                                        <div class="custom-select">
+                                        <select class="form-control">
+                                            <option>Uttar Pradesh</option>
+                                            <option>Rajisthan</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 mb-4">
+                                        <label for="comment">Symtoms</label>
+                                        <textarea class="form-control" rows="1" id="comment" placeholder="Please add you symptoms"></textarea>
+                                    </div>
+
+
+
+
+                                </div>
+                            </form>
+
+                            <div class="text-right">
+                                <button class="themebtn ml-auto" data-dismiss="modal" data-toggle="modal" data-target="#App_confirmed">Confirm Appointment</button>
+                            </div>
+                        </div>
+                        <div class='form_dependent d-none'>
+                            <form action="">
+                                <div class="form-row">
+                                    <div class="col-md-6 mb-4">
+                                        <label for="usr">Relationship</label>
+                                        <div class="custom-select">
+                                        <select class="form-control" readonly>
+                                            <option>Father</option>
+                                            <option>Mother</option>
+                                            <option>Brother</option>
+                                            <option>Sister</option>
+
+                                        </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label for="usr">Patient Name</label>
+                                        <input type="text" class="form-control" id="usr" value="Manju">
+                                    </div>
+
+                                    <div class="col-md-6 mb-4">
+                                        <label>Hospital Name</label>
+                                        <div class="custom-select">
+                                        <select class="form-control">
+                                            <option>Fortis Hospital</option>
+
+                                        </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label>Docture Name </label>
+                                        <div class="custom-select">
+                                        <select class="form-control" readonly>
+                                            <option>Dr. Girish Panth</option>
+                                            <option>Dr. Rishiaj Sharma</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label>Docture Specialtiy</label>
+                                        <input type="text" class="form-control" placeholder="Dermalogistic" readonly>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label>Appointment Date and Time</label>
+                                        <div class="cal_input_warp">
+                                            <input type="text" id="inputDateCard8" class="form-control inputDateCard" placeholder="01/02/1999" data-dismiss="modal" data-toggle="modal" data-target="#dateCard">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <label>City</label>
+                                        <div class="custom-select">
+                                        <select class="form-control">
+                                            <option>Delhi</option>
+                                            <option>Gurgaon</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 mb-4">
+                                        <label for="comment">Comment:</label>
+                                        <textarea class="form-control" rows="1" id="comment" placeholder="Please add you symptoms"></textarea>
+                                    </div>
+
+
+                                </div>
+                            </form>
+                            <div class="text-right">
+
+
+                                <button class="themebtn ml-auto" data-dismiss="modal" data-toggle="modal" data-target="#App_confirmed">Confirm Appointment</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Modal footer -->
+
+            </div>
+        </div>
+    </div>
+    <!--    ====================Modal End==================-->
+    <!--    ====================Modal Start==================-->
+    <!-- The Modal -->
+    <div class="modal fadec cs_modal modal_sm" id="confirmed">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header border-0">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body text-center px-4">
+                    <p class="lh_13 h6 fw_400">Hi Manju, your appointment with Dr Girish Panth on 12 July 2022 at 4:30 PM for Fortis Hospital has been confirmed.<strong class="h6 d-block"> Your Appointment ID #3136160</strong></p>
+
+                    <div class="py-3 mb-2">
+
+
+                        <a href="OPD-physical-self-4_view_voucher.html" class="themebtn ">View Voucher</a>
+
+                        <a href="#" class="themebtn  ml-2" data-dismiss="modal">Download Voucher</a>
+
+                    </div>
+                    <div class="fz_10 lh_13">
+                        Disclaimer* : This is a tentative appointment, the time might differ due to pre booked appointments Kindly connect with customer care for any queries (080 – xxxxxxxxx)
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+
+            </div>
+        </div>
+    </div>
+    <!--    ====================Modal End==================-->
+    <!--    ====================Modal Start==================-->
+    <!-- The Modal -->
+    <div class="modal fadec cs_modal modal_sm" id="App_confirmed">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header border-0">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body text-center px-4 pt-0">
+                    <h5 class="ca mb-3">Appointment Confirmed </h5>
+                    <p class="lh_13 h6 fw_400">Hi Manju, your appointment with Dr Girish Panth on 12 July 2022 at 4:30 PM for Fortis Hospital has been confirmed.<strong class="h6 d-block"> Your Appointment ID #3136160</strong></p>
+
+                    <div class="py-3 mb-2">
+
+
+                        <a href="OPD-Tele_video-self%E2%80%934.html" class="themebtn ">View Appointment</a>
+
+                        <a href="#" class="themebtn  ml-2" data-dismiss="modal">Download Appointment</a>
+
+                    </div>
+                    <div class="fz_10 lh_13">
+                        Disclaimer* : This is a tentative appointment, the time might differ due to pre booked appointments Kindly connect with customer care for any queries (080 – xxxxxxxxx)
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+
+            </div>
+        </div>
+    </div>
+    <!--    ====================Modal End==================-->
+    <!--    ====================Modal Start==================-->
+    <!-- The Modal -->
+    <div class="modal fadec modal_sm" id="dateCard">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header border-0">
+                    <h6 class="ca p-1">Select Date and Time</h6>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body text-center p-0">
+
+                    <div class="card_body py-4 px-5">
+                        <div class="row m-0">
+                            <div class="col-md-6">
+                                <div class="cs_card time_card h-100">
+                                    <div class="calender_wrap pt-3">
+                                        <div style="display:flex;  flex-flow:column wrap; align-content: center;">
+
+                                            <!-- Mount calendar on root-->
+                                            <div id="root"></div>
+
+                                            <!-- For Demo Purposes-->
+                                            <!--
+                                    <span><input id="input-mode" type="checkbox" value="multiple"> <label>Select multiple</label></span>
+                                    <br/>
+                                    <textarea id="input-date" placeholder="MM/DD/YYYY"></textarea>
+-->
+                                        </div>
+
+
+
+                                        <div id="root2"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 ">
+                                <div class="cs_card time_card h-100">
+                                    <!-- Nav tabs -->
+                                    <div class="card_header pt-2">
+                                        <ul class="nav nav-tabs border-bottom justify-content-between">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" data-toggle="tab" href="#time_set1"><img src="images/Sunrise.png" alt=""></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-toggle="tab" href="#time_set2"><img src="images/sunnyDay.png" alt=""></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-toggle="tab" href="#time_set3"><img src="images/sunset.png" alt=""></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-toggle="tab" href="#time_set3"><img src="images/moon.png" alt="" width="25"></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <!-- Tab panes -->
+                                    <div class="tab-content card_body p-4">
+                                        <div class="tab-pane container active p-0" id="time_set1">
+                                            <div class="d-flex time_hti justify-content-between flex-wrap">
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span class="active">1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane container fade" id="time_set2">
+                                            <div class="d-flex time_hti justify-content-between flex-wrap">
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane container fade" id="time_set3">
+                                            <div class="d-flex time_hti justify-content-between flex-wrap">
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane container fade" id="time_set4">
+                                            <div class="d-flex time_hti justify-content-between flex-wrap">
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                                <span>1:15 PM</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center pt-5">
+                            <a href="#" class="themebtn" id='save_date_time' data-dismiss="modal" data-toggle="modal" data-target="#bookApp">Save</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Modal footer -->
+
+            </div>
+        </div>
+    </div>
+    <!--    ====================Modal End==================-->
+    <div class="d-none">
+        <input type="text" id="input-date">
+    </div>
+    <!--script-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/js/bootstrap-datepicker.min.js'></script>
+    <script src='js/site.js'></script>
+    <script src='js/script.js'></script>
+    <script>
+        $('docuement').ready(function() {
+            //=========btn_to_serv_step2===========
+            $('.btn_to_serv_step2').on('click', function() {
+                $('#serv_step1').addClass('d-none');
+                $('#serv_step2').removeClass('d-none');
+            });
+            //=========btn_to_serv_step2===========
+            $('.modal input.Dependent').on('change', function() {
+                if (this.checked) {
+                    $(this).parents('.modal').find('.form_self').addClass('d-none');
+                    $(this).parents('.modal').find('.form_dependent').removeClass('d-none');
+                }
+            });
+            $('.modal input.Self').on('change', function() {
+                if (this.checked) {
+                    $(this).parents('.modal').find('.form_self').removeClass('d-none');
+                    $(this).parents('.modal').find('.form_dependent').addClass('d-none');
+                }
+            });
+            //==========Passing Modal Id to Date Card==========
+            $('.inputDateCard').on('click', function() {
+                var xmodal = $(this).parents('.modal').attr('id');
+                $('#dateCard').find('#save_date_time').attr('data-target', '#' + xmodal + '');
+            });
+            //=========Time select Active==========
+
+            $('.time_hti >span').on('click', function() {
+                $('.time_hti >span').removeClass('active');
+                $(this).addClass('active');
+            });
+
+            // =============Passing Input Calender Id to Modal============
+            $('.inputDateCard').on('click', function() {
+                $('#dateCard').attr('data-modalId', '' + $(this).attr("id") + '');
+            });
+            // =============Passing Input Calender Id to Modal============
+            $('[data-confirmFlow]').on('click', function() {
+                let xnextid = $(this).attr('data-confirmFlow');
+                $('#bookApp').attr('data-nextFlow', xnextid);
+                $('#bookApp').find('.appointment_modal_btn').attr('data-target', '#' + xnextid + '');
+            });
+            // =============Date And Time save form popup============
+            $('#save_date_time').on('click', function() {
+                var xinput = $('#dateCard').attr('data-modalId');
+                var xdateinput = $('#input-date').val();
+                if ($('.time_hti span').hasClass('active')) {
+                    var xtextval = $('.time_hti span.active').text();
+                }
+                $('#' + xinput + '').val(xdateinput + " - " + xtextval);
+
+            });
+            // =============Date And Time save form popup============
+            // =============Uploaded file Name============
+            $('.upload_file_js [type="file"]').change(function() {
+                var fileGname = $('.upload_file_js [type="file"]').files.length ? ('.upload_file_js [type="file"]').files[0].name : "";
+                alert(fileGname);
+            });
+            // ==========Uploaded file Name=end ============
+        });
+    </script>
+
+</body>
+
+</html>

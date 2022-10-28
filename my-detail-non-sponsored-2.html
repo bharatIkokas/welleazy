@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Welleazy</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ea16b2b73c.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body class="site_body side_nav_active">
+    <!--    HEADER Start   -->
+    <!--    HEADER Start   -->
+    <header class="site_header">
+        <nav class="navbar navbar-expand-xl py-2 position-relative">
+
+            <div class="container px-0">
+                <!-- Logo -->
+                <a class="navbar-brand ease" href="index.html">
+                    <img src="images/logo.svg" alt="logo">
+                </a>
+                <!--collapse menu-->
+                <div class="collapse navbar-collapse justify-content-xl-end" id="collapsibleNavbar">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item"> <a class="nav-link active" href="#">Home</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#">About Us</a> </li>
+                        <li class="nav-item has-children"> <a class="nav-link" href="#">Corporate Wellness Services </a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="our_services.html">Our Services</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#">Pharmacy</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#">Book Lab Test</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#">HRA</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#">FAQ’s</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#">Contact Us</a> </li>
+                    </ul>
+                </div>
+                <!--collapse menu-->
+                <div class="clt_nav nav ml-2">
+                    <a href="#" class="cs_cart cs_icon"></a>
+                    <a href="#" class="cs_wallet cs_icon"></a>
+                    <a href="#" class="cs_notification cs_icon"><span class="cs_badge">3</span></a>
+                    <a href="#" class="cs_user cs_icon"></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--    HEADER END   -->
+    <!--    Sidebar Start -->
+    <aside id="cs_sidebar" class="cs_sidenav active">
+        <div class="user_wrapper p-3 text-center">
+            <figure class="user_media pt-2 position-relative cs_bn_upload_wrapper m-0">
+                <div class="position-relative">
+                    <span class="user_img_container cs_ratio mx-3">
+                         <img src="images/user.png" alt="" class='prf_main_img'>
+                    </span>
+                    <label for="upload_prof_img" class="btn-null prof_upload_label  edit_pp">
+                        <input type="file" id="upload_prof_img" class='d-none'>
+                        <img src="images/edit_icon.svg" alt="">
+                    </label>
+                </div>
+                <figcaption class="pt-2 text-white fz_80">
+                    <h6 class='text-white fw_400 mb-1'>Rajan Sharma</h6>
+                    <p class="lh_1">Member Id: <span>xxxxxxxxx</span></p>
+                </figcaption>
+
+            </figure>
+            <div class="text-center pb-1">
+                <button class="btn-null arrow_up text-white">
+                </button>
+            </div>
+        </div>
+
+        <div class="navmenu_block pt-4">
+            <ul class="navmenu_nav navbar-nav">
+                <li class='nav-item has_subnav'><a href="#" class='nav-link'>Manage Profile <i class="plus_icon"></i></a>
+                    <ul class="sub_nav">
+                        <li><a href="edit-profile%E2%80%932.html" class='nav-link'>Profile Detail</a></li>
+                        <li><a href="dependant-details-3.html" class='nav-link'>Dependents</a></li>
+                    </ul>
+                </li>
+                <li class='nav-item'><a href="my-appointements%E2%80%932.html" class='nav-link'>My Appointments</a></li>
+                <li class='nav-item'><a href="address-book%E2%80%932.html" class='nav-link'>My Address Book</a></li>
+                <li class='nav-item active'><a href="my-orders%E2%80%934_services.html" class='nav-link'>My Services</a></li>
+                <li class='nav-item has_subnav'><a href="#" class='nav-link'>My Payments<i class="plus_icon"></i></a>
+                    <ul class="sub_nav ">
+                        <li><a href="transactions%E2%80%932.html" class='nav-link '>Transactions</a></li>
+                        <li><a href="payment-method%E2%80%932.html" class='nav-link'>Payment Method</a></li>
+                    </ul>
+                </li>
+                <li class='nav-item'><a href="#" class='nav-link'>Health Records</a></li>
+                <li class='nav-item'><a href="#" class='nav-link'>HRA</a></li>
+            </ul>
+        </div>
+    </aside>
+    <!--    Sidebar Start -->
+
+    <!--    CONTENT START     -->
+    <main id="main" class="site-main bg-light">
+        <!--============Search Header=================-->
+        <div class="search_header px-4 pt-4">
+            <div class="row row align-items-end">
+                <div class="col-md-3">
+                    <form action="">
+                        <div class="position-relative location_search drp_warpper">
+                            <i class="location_icon"></i>
+                            <button class="change_ev themebtn2 btn_blue btn_sm ttu">Change</button>
+                            <input type="text" class="drp_input  form-control" placeholder="New Delhi">
+                            <div class="dropdown_user style_5">
+                                <ul>
+                                    <li> Mumbai </li>
+                                    <li> Delhi </li>
+                                    <li> Bangalore </li>
+                                    <li> Hyderabad </li>
+                                    <li> Ahmedabad </li>
+                                    <li> Chennai </li>
+                                    <li> Kolkata </li>
+                                    <li> Surat </li>
+                                    <li> Pune </li>
+                                    <li> Jaipur </li>
+                                </ul>
+
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col">
+                    <form action="">
+                        <div class="position-relative drp_warpper">
+                            <button type="submit" class="btn-null search_icon"><i class="fa-solid fa-magnifying-glass"></i></button>
+                            <input type="text" class="search_input drp_input form-control" placeholder="Search for Medicine and Health Products">
+                            <div class="dropdown_user style_5">
+                                <ul>
+                                    <li> Herbal Supplements
+                                    </li>
+                                    <li> Coconut Water & Coconut Oil
+                                    </li>
+                                    <li> Cannabidiol (CBD)
+                                    </li>
+                                    <li> Activated Charcoal
+                                    </li>
+
+                                </ul>
+
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="ml-auto text-right pl-3"><a href="book-appoitment.html" class="themebtn ">book appointment</a></div>
+            </div>
+        </div>
+        <!--============Search Header End=================-->
+        <section class="cs_pb pt-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-10 col-xl-10 mx-auto">
+                        <div class="cs_card p-0 rounded">
+                            <div class="card-header bg_skyblue text-center  position-relative border-0">
+                                <h5 class="m-0 py-2 ca">Non - Sponsored</h5>
+                                <a href="#" class="sps_cross text-muted prev_page_btn"><i class="fa-solid fa-xmark cross"></i> </a>
+
+                            </div>
+                            <div class="card-body">
+                                <div class=" d-flex align-items-end">
+                                    <div class="pr-2">
+                                        <h5 class="fw_400 mb-0">Case Id: #5220312</h5>
+                                        <span class="fw_700">Status:<span class="text-success"> In Progress</span></span>
+                                    </div>
+                                    <div class="ml-auto">
+                                        <a href="" class="download"><i class="cs_icon cs_download"></i></a>
+                                        <a href="" class="download ml-3"><i class="cs_icon cs_mail"></i></a>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row fz_90 pt-3">
+                                    <div class="col-5">
+                                        <ul class="any_list li_2 li_45">
+                                            <li>
+                                                <span class='fw_700'>Name: </span> Rajan Sharma
+                                            </li>
+                                            <li>
+                                                <span class='fw_700'>Appointment Date:</span>02-03-2021
+                                            </li>
+                                            <li>
+                                                <span class='fw_700'>Appointment Type:</span>Hospital Visit
+                                            </li>
+                                            <li>
+                                                <span class='fw_700'>Services: </span>Blood Test
+                                            </li>
+                                            <li>
+                                                <span class='fw_700'> Appointment Type:</span> Hospital Visit
+                                            </li>
+                                        </ul>
+                                        <ul class="any_list li_2 li_45 pt-4">
+                                            <li>
+                                                <span class='fw_700'>Payment Method:  </span> Debit Card **** **** **** 4567
+                                            </li>
+                                            <li>
+                                                <span class='fw_700'>Payment Status: </span>Paid. (02-03-2021 (00:55:39))
+                                            </li>
+                                            <li>
+                                                <span class='fw_700'>Amount Paid:</span>₹263.00
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6 ml-auto">
+                                        <div class="p-4" style="background: #F5F5F5">
+                                            <div class="row mb-1">
+                                                <strong class='col-4 pr-0'>Invoice Number</strong>
+                                                <span class="col-8"> TCDJ-9693</span>
+
+
+                                            </div>
+                                            <div class="row mb-1">
+                                                <strong class='col-4 pr-0'>Invoice Details </strong>
+                                                <span class="col-8"> DL-TCDJ-1223652665-22233</span>
+                                            </div>
+                                            <div class="row mb-1">
+                                                <strong class='col-4 pr-0'>Invoice Date: </strong>
+                                                <span class="col-8"> 03-03-2021</span>
+                                            </div>
+                                            <div class="row">
+                                                <strong class='col-4 pr-0'>Shipping Address:</strong>
+                                                <address class="col-8">Rajan Sharma,<br> 801 Tower ASamridhi, Tech Zone IV Noida,<br> Uttar Pradesh Pin: 20130.</address>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pt-5">
+                                    <h5 class="h6">Item Details</h5>
+                                    <div class="table-responsive fz_13 table_bd_n item_detail_table">
+                                        <table class="table border-0 m-0 text-center lc_e sc_s sr_no">
+                                            <thead>
+                                                <tr>
+                                                    <th>Sr. No</th>
+                                                    <th>Item Description</th>
+                                                    <th>Unit Price</th>
+                                                    <th>Quantity</th>
+                                                    <th>Net Amount</th>
+                                                    <th>Tax Rate</th>
+                                                    <th>Tax Type</th>
+                                                    <th>Tax Amount</th>
+                                                    <th>Total Amount</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>    
+                                                    <td>Complete BloodCount (CBC)</td>
+                                                    <td>₹10.00 </td>
+                                                    <td>1</td>
+                                                    <td>₹10.00 </td>
+                                                    <td>18%</td>
+                                                    <td>IGST</td>
+                                                    <td>₹18.00 </td>
+                                                    <td><strong>₹18.00</strong> </td>
+
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>Complete Urine Examination</td>
+                                                    <td>₹30.50 </td>
+                                                    <td>1</td>
+                                                    <td>₹75.00 </td>
+                                                    <td>18%</td>
+                                                    <td>IGST</td>
+                                                    <td>₹18.00 </td>
+                                                    <td><strong>₹73.00</strong> </td>
+
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>Factor IX complex</td>
+                                                    <td>₹30.50 </td>
+                                                    <td>1</td>
+                                                    <td>₹75.00 </td>
+                                                    <td>18%</td>
+                                                    <td>IGST</td>
+                                                    <td>₹18.00 </td>
+                                                    <td><strong>₹73.00</strong> </td>
+
+                                                </tr>
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td>Liver Function Test (LFT)</td>
+                                                    <td>₹30.50 </td>
+                                                    <td>1</td>
+                                                    <td>₹75.00 </td>
+                                                    <td>18%</td>
+                                                    <td>IGST</td>
+                                                    <td>₹18.00 </td>
+                                                    <td><strong>₹73.00</strong> </td>
+
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <ul class="list-unstyled border-top pb-4 fz_95">
+                                        <li class="d-flex justify-content-between border-bottom p-3">
+                                            <strong class="">Shipping Charges</strong> <strong>₹40.00</strong>
+                                        </li>
+                                        <li class="d-flex justify-content-between  p-3">
+                                            <strong>TOTAL AMOUNT</strong> <strong>₹263.00s</strong>
+                                        </li>
+                                         
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--    ====================Modal Start==================-->
+
+    <!--    ====================Modal End==================-->
+    <!--script-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/js/bootstrap-datepicker.min.js'></script>
+    <script src='js/script.js'></script>
+
+
+</body>
+
+</html>
