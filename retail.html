@@ -24,41 +24,96 @@
         <section class="bg_blue cs_banner bg_shape text-center pt-4  bnr_01">
             <img src="images/screen-2.png" alt="" class="banner_img">
         </section>
-        <section class="cs_py">
+        <section class="login-wrapp">
             <div class="container">
                 <div class="row ">
                     <div class="col-md-9 col-lg-7 col-xl-5 mx-auto">
-                        <div class="sec_header text-center mb-5">
-                            <h5 class="mb-3">To continue, log in to</h5>
-                            <figure class="text-center mx-auto" style="max-width: 275px;">
-                                <img src="images/logo.svg" alt="">
+                        <div class="sec_header text-center mb-4">
+                            <h5 class="mb-2">To continue, log in to</h5>
+                            <figure class="text-center mx-auto logo-form" style="max-width: 275px;">
+                                <a href="index.html"><img src="images/logo.svg" alt=""></a>
                             </figure>
                         </div>
-                        <form action="welcome_2.html">
+                        <form action="welcome_1.html" class="login-main">
                             <div class="form-group">
-                                <input type="email" class="form-control" placeholder="Enter Your Corporate Email Id" id="email" required>
+                                <input type="email" class="form-control" placeholder="Enter Your Email Id Or Phone Number" id="email" required>
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Enter Otp" id="pwd" required>
+                                <input type="text" class="form-control" maxlength="6" minlength="4" placeholder="Enter Otp" id="pwd" required>
                             </div>
-                            <div class="form-group form-check d-flex fz_90 cs_checkbox">
-
-
-                                <input class="form-check-input" type="checkbox" id="agree">
+                            <div class="d-flex justify-content-between">
+                                <span>Login Using <a href="javascript:void(0);" class="blue-text fw-bold view-using-otp">Password</a></span>
+                                <button class="resend btn-null ml-4 ci cp" id="rensend_1"><i class="fa-solid fa-rotate-right mr-1 theme-color2"></i> Resend
+                                </button>
+                            </div>
+                            <div class="form-group form-check d-flex fz_90 cs_checkbox mt-3">
+                                <input class="form-check-input" type="checkbox" id="agree"  required>
                                 <label class="form-check-label mr-auto" for="agree">I agree to Welleazy’s <a href="#" class="tdu">Terms of Service</a> and <a href="" class="tdu">Privacy Policy</a>
                                 </label>
-
-                                <span class="time_set_otp ml-4"><i class="fa-solid fa-stopwatch mr-1"></i> <span id="Timer">30 sec left</span>
-                                </span>
-                                <span class="resend_action d-none"><a href='javascript:void(0);' class="resend btn-null ml-4"><i class="fa-solid fa-rotate-right mr-1 theme-color2"></i> Resend
-                                    </a></span>
                             </div>
-                            <div class="d-flex">
-                                <span class="d-flex align-items-center"><span class="fz_90">Or Login With </span>
-                                    <a href="#" class="login_with mx-2"><img src="images/Google__G__Logo.svg.png" width="15" alt=""></a>
-                                     <a href="#" class="login_with bg_blue text-white fb"><i class="fa-brands fa-facebook-f fz_14"></i></a> 
-                                </span>
-                                <button type="submit" class="themebtn tt_p ml-auto">Login</button>
+                            <div class="text-center">
+                                <button type="submit" class="themebtn tt_p w-100 btn_center">Login</button>
+                            </div>
+                            <div class="d-flex justify-content-between mt-3">
+                                <span>New Member ?  <a href="javascript:void(0);" class="blue-text fw-bold view-signup-form">Register Now</a></span>
+                                <span><a href="reset-password-retail.html" class="blue-text fw-bold">Reset Password</a></span>
+                            </div>
+                        </form>
+                        <form action="welcome_1.html" class="login-using-password">
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Enter Your Email Id Or Phone Number" id="email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" maxlength="6" minlength="4" placeholder="Password" id="pwd" required>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <span>Login Using <a href="javascript:void(0);" class="blue-text fw-bold view-using-password">OTP</a></span>
+                                <!-- <button class="resend btn-null ml-4 ci cp" id="rensend_2"><i class="fa-solid fa-rotate-right mr-1 theme-color2"></i> Resend
+                                </button> -->
+                            </div>
+                            <div class="form-group form-check d-flex fz_90 cs_checkbox mt-3">
+                                <input class="form-check-input" type="checkbox" id="agree"  required>
+                                <label class="form-check-label mr-auto" for="agree">I agree to Welleazy’s <a href="#" class="tdu">Terms of Service</a> and <a href="" class="tdu">Privacy Policy</a>
+                                </label>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="themebtn tt_p w-100 btn_center">Login</button>
+                            </div>
+                            <div class="d-flex justify-content-between mt-3">
+                                <span>New Member ?  <a href="javascript:void(0);" class="blue-text fw-bold view-signup-form">Register Now</a></span>
+                                <span><a href="reset-password-retail.html" class="blue-text fw-bold">Reset Password</a></span>
+                            </div>
+                        </form>
+                        <form action="welcome_1.html" class="sign-up-now">
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Email" id="email" required>
+                            </div>
+                            <div class="form-group">
+                                <div class="row cs_row10">
+                                    <div class="col-md-6">
+                                        <input type="text" class="form-control" minlength="4" placeholder="First And Middle Name" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" class="form-control" minlength="4" placeholder="Last Name" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" maxlength="6" minlength="4" placeholder="Password" id="pwd" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" maxlength="6" minlength="4" placeholder="Confirm Password" id="pwd" required>
+                            </div>
+                            <div class="form-group form-check d-flex fz_90 cs_checkbox">
+                                <input class="form-check-input" type="checkbox" id="agree"  required>
+                                <label class="form-check-label mr-auto" for="agree">I agree to Welleazy’s <a href="#" class="tdu">Terms of Service</a> and <a href="" class="tdu">Privacy Policy</a>
+                                </label>
+                            </div>
+                            <div class="text-center">
+                                <a href="welcome_1.html" class="themebtn tt_p w-100 btn_center">Sign Up</a>
+                            </div>
+                            <div class="d-flex justify-content-center mt-3">
+                                <span>Already a Member ?  <a href="javascript:void(0);" class="blue-text fw-bold view-signin-form">Sign In</a></span>
                             </div>
                         </form>
                     </div>
@@ -69,40 +124,9 @@
     </main>
     <!--script-->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/js/bootstrap-datepicker.min.js'></script>
-    <script>
-        $(document).ready(function() {
-            $('.resend_action .resend').on('click', function() {
-                $('.time_set_otp').removeClass('d-none');
-                $('.resend_action').addClass('d-none');
-                countdown();
-            });
-
-            function countdown() {
-                var timeLeft = 30;
-                var elem = document.getElementById('Timer');
-                var timerId = setInterval(countdown, 1000);
-
-                function countdown() {
-                    if (timeLeft == -1) {
-                        clearTimeout(timerId);
-                        $('.time_set_otp').addClass('d-none');
-                        $('.resend_action').removeClass('d-none');
-
-                    } else {
-                        elem.innerHTML = timeLeft + ' sec left';
-                        timeLeft--;
-                    }
-                }
-            }
-            countdown();
-        });
-    </script>
+    <script src='js/script.js'></script>
 </body>
 
 </html>
