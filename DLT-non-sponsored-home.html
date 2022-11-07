@@ -11,7 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ea16b2b73c.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/css/bootstrap-datepicker.min.css">
     <link rel="stylesheet" href="css/site.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -34,7 +35,8 @@
                     <ul class="navbar-nav ">
                         <li class="nav-item"> <a class="nav-link active" href="#">Home</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="#">About Us</a> </li>
-                        <li class="nav-item has-children"> <a class="nav-link" href="#">Corporate Wellness Services </a> </li>
+                        <li class="nav-item has-children"> <a class="nav-link" href="#">Corporate Wellness Services </a>
+                        </li>
                         <li class="nav-item"> <a class="nav-link" href="our_services.html">Our Services</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="#">Pharmacy</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="#">Book Lab Test</a> </li>
@@ -45,7 +47,30 @@
                 </div>
                 <!--collapse menu-->
                 <div class="clt_nav nav ml-2">
-                    <a href="#" class="cs_cart cs_icon"></a>
+                    <a href="#" class="cs_cart cs_icon position-relative cart-link">
+                        <span class="cs_badge">1</span>
+                        <div class="cart-block">
+                            <div class="cart-title">Cart</div>
+                            <div class="cart-cnt">
+                                <div class="d-flex align-items-center">
+                                    <div class="cart-image-block">
+                                        <img src="img/dlt-list-2.png" alt="">
+                                    </div>
+                                    <div class="cart-titles-block">
+                                        <div class="black-text">Lipid Profile</div>
+                                        <div class="gray-text">Sub information</div>
+                                    </div>
+                                </div>
+                                <div class="number">
+                                    <span class="minus">-</span>
+                                    <input type="text" value="1"/>
+                                    <span class="plus">+</span>
+                                </div>
+                                <div class="cart-amount">RS 300</div>
+                            </div>
+                            <div class="themebtn view-cart-btn" onclick="pageRedirect();">View Cart</div>
+                        </div>
+                    </a>
                     <a href="#" class="cs_wallet cs_icon"></a>
                     <a href="#" class="cs_notification cs_icon"><span class="cs_badge">3</span></a>
                     <a href="#" class="cs_user cs_icon"></a>
@@ -57,7 +82,7 @@
 
     <!--    CONTENT START     -->
     <main id="main" class="site-main">
-        
+
         <!--========breadcrumb========-->
         <nav class="cs_breadcrumb py-4">
             <div class="container">
@@ -79,7 +104,8 @@
                         <div class="position-relative location_search drp_warpper full_border">
                             <i class="location_icon"></i>
                             <i class="location_icon_2"></i>
-                            <input type="text" class="drp_input  form-control" id="loc_field" placeholder="Search Location" data-toggle="modal" data-target="#access_location">
+                            <input type="text" class="drp_input  form-control" id="loc_field"
+                                placeholder="Search Location" data-toggle="modal" data-target="#access_location">
                             <div class="dropdown_user style_5">
                                 <ul>
                                     <li> Mumbai </li>
@@ -148,7 +174,7 @@
                                     <img src="img/5.jpg" alt="">
                                 </a>
                             </div>
-                          </div>
+                        </div>
                     </div>
                     <div class="col-md-5">
                         <div class="lt-home-block">
@@ -282,7 +308,8 @@
                                 <span class="blue-text">Rs 0</span>
                                 <strike class="text_sm">Rs 380</strike>
                             </div>
-                            <a href="javascript:void(0);" data-toggle="modal" data-target="#select_lab_test" class="themebtn ">Select Tests</a>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target="#select_lab_test"
+                                class="themebtn ">Select Tests</a>
                             <div class="blue-text-wrapp text-right">
                                 <a href="#" class="fw-bold text-decoration-underline">6 Tests Included</a>
                             </div>
@@ -316,7 +343,8 @@
                                 <span class="blue-text">Rs 0</span>
                                 <strike class="text_sm">Rs 380</strike>
                             </div>
-                            <a href="javascript:void(0);" data-toggle="modal" data-target="#medical_test_not_availble" class="themebtn ">Select Tests</a>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target="#medical_test_not_availble"
+                                class="themebtn ">Select Tests</a>
                             <div class="blue-text-wrapp text-right">
                                 <a href="#" class="fw-bold text-decoration-underline">9 Tests Included</a>
                             </div>
@@ -333,7 +361,8 @@
                                 <span class="blue-text">Rs 0</span>
                                 <strike class="text_sm">Rs 380</strike>
                             </div>
-                            <a href="javascript:void(0);" data-toggle="modal" data-target="#select_lab_test" class="themebtn ">Select Tests</a>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target="#select_lab_test"
+                                class="themebtn ">Select Tests</a>
                             <div class="blue-text-wrapp text-right">
                                 <a href="#" class="fw-bold text-decoration-underline">2 Tests Included</a>
                             </div>
@@ -350,7 +379,8 @@
                                 <span class="blue-text">Rs 0</span>
                                 <strike class="text_sm">Rs 380</strike>
                             </div>
-                            <a href="javascript:void(0);" data-toggle="modal" data-target="#select_lab_test" class="themebtn ">Select Tests</a>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target="#select_lab_test"
+                                class="themebtn ">Select Tests</a>
                             <div class="blue-text-wrapp text-right">
                                 <a href="#" class="fw-bold text-decoration-underline">5 Tests Included</a>
                             </div>
@@ -367,7 +397,8 @@
                                 <span class="blue-text">Rs 0</span>
                                 <strike class="text_sm">Rs 380</strike>
                             </div>
-                            <a href="javascript:void(0);" data-toggle="modal" data-target="#select_lab_test" class="themebtn ">Select Tests</a>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target="#select_lab_test"
+                                class="themebtn ">Select Tests</a>
                             <div class="blue-text-wrapp text-right">
                                 <a href="#" class="fw-bold text-decoration-underline">6 Tests Included</a>
                             </div>
@@ -384,7 +415,8 @@
                                 <span class="blue-text">Rs 0</span>
                                 <strike class="text_sm">Rs 380</strike>
                             </div>
-                            <a href="javascript:void(0);" data-toggle="modal" data-target="#select_lab_test" class="themebtn ">Select Tests</a>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target="#select_lab_test"
+                                class="themebtn ">Select Tests</a>
                             <div class="blue-text-wrapp text-right">
                                 <a href="#" class="fw-bold text-decoration-underline">6 Tests Included</a>
                             </div>
@@ -401,7 +433,8 @@
                                 <span class="blue-text">Rs 0</span>
                                 <strike class="text_sm">Rs 380</strike>
                             </div>
-                            <a href="javascript:void(0);" data-toggle="modal" data-target="#select_lab_test" class="themebtn ">Select Tests</a>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target="#select_lab_test"
+                                class="themebtn ">Select Tests</a>
                             <div class="blue-text-wrapp text-right">
                                 <a href="#" class="fw-bold text-decoration-underline">6 Tests Included</a>
                             </div>
@@ -418,7 +451,8 @@
                                 <span class="blue-text">Rs 0</span>
                                 <strike class="text_sm">Rs 380</strike>
                             </div>
-                            <a href="javascript:void(0);" data-toggle="modal" data-target="#two_test_can_not" class="themebtn ">Select Tests</a>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target="#two_test_can_not"
+                                class="themebtn ">Select Tests</a>
                             <div class="blue-text-wrapp text-right">
                                 <a href="#" class="fw-bold text-decoration-underline">6 Tests Included</a>
                             </div>
@@ -435,7 +469,8 @@
                                 <span class="blue-text">Rs 0</span>
                                 <strike class="text_sm">Rs 380</strike>
                             </div>
-                            <a href="javascript:void(0);" data-toggle="modal" data-target="#two_test_can_not" class="themebtn ">Select Tests</a>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target="#two_test_can_not"
+                                class="themebtn ">Select Tests</a>
                             <div class="blue-text-wrapp text-right">
                                 <a href="#" class="fw-bold text-decoration-underline">6 Tests Included</a>
                             </div>
@@ -447,37 +482,56 @@
                     <div class="col-md-12">
                         <ul class="nav nav-pills mb-3 rounded-tabs" id="pills-tab" role="tablist">
                             <li class="nav-item" role="presentation">
-                              <button class="nav-link active" id="pills-home-tab" data-toggle="pill" data-target="#rt_1" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Popular Packages</button>
+                                <button class="nav-link active" id="pills-home-tab" data-toggle="pill"
+                                    data-target="#rt_1" type="button" role="tab" aria-controls="pills-home"
+                                    aria-selected="true">Popular Packages</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                              <button class="nav-link" id="pills-profile-tab" data-toggle="pill" data-target="#rt_2" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Women health</button>
+                                <button class="nav-link" id="pills-profile-tab" data-toggle="pill" data-target="#rt_2"
+                                    type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Women
+                                    health</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                              <button class="nav-link" id="pills-contact-tab" data-toggle="pill" data-target="#rt_3" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Diabetes</button>
+                                <button class="nav-link" id="pills-contact-tab" data-toggle="pill" data-target="#rt_3"
+                                    type="button" role="tab" aria-controls="pills-contact"
+                                    aria-selected="false">Diabetes</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="pills-contact-tab" data-toggle="pill" data-target="#rt_4" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Covid 19</button>
-                              </li>
-                              <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="pills-contact-tab" data-toggle="pill" data-target="#rt_5" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Senior Citizen</button>
-                              </li>
-                              <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="pills-contact-tab" data-toggle="pill" data-target="#rt_6" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Fever</button>
-                              </li>
-                              <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="pills-contact-tab" data-toggle="pill" data-target="#rt_7" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Full Body Check Up</button>
-                              </li>
-                              <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="pills-contact-tab" data-toggle="pill" data-target="#rt_8" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Pregnancy</button>
-                              </li>
-                              <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="pills-contact-tab" data-toggle="pill" data-target="#rt_9" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Men Health</button>
-                              </li>
-                          </ul>
-                          </div>
-                          <div class="col-md-12">
-                          <div class="tab-content" id="pills-tabContent">
-                            <div class="tab-pane fade show active" id="rt_1" role="tabpanel" aria-labelledby="pills-home-tab">
+                                <button class="nav-link" id="pills-contact-tab" data-toggle="pill" data-target="#rt_4"
+                                    type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Covid
+                                    19</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-contact-tab" data-toggle="pill" data-target="#rt_5"
+                                    type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Senior
+                                    Citizen</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-contact-tab" data-toggle="pill" data-target="#rt_6"
+                                    type="button" role="tab" aria-controls="pills-contact"
+                                    aria-selected="false">Fever</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-contact-tab" data-toggle="pill" data-target="#rt_7"
+                                    type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Full
+                                    Body Check Up</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-contact-tab" data-toggle="pill" data-target="#rt_8"
+                                    type="button" role="tab" aria-controls="pills-contact"
+                                    aria-selected="false">Pregnancy</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-contact-tab" data-toggle="pill" data-target="#rt_9"
+                                    type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Men
+                                    Health</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="rt_1" role="tabpanel"
+                                aria-labelledby="pills-home-tab">
                                 <div class="row">
                                     <div class="col-md-4 text-center mb-3">
                                         <div class="st-block position-relative">
@@ -492,7 +546,7 @@
                                             </div>
                                             <div class="text-center">
                                                 <a href="#" class="themebtn ">Select Tests</a>
-                                            <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
+                                                <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
                                             </div>
                                             <div class="blue-text-wrapp absolute">
                                                 <a href="#" class="fw-bold text-decoration-underline">Total Test 24</a>
@@ -512,7 +566,7 @@
                                             </div>
                                             <div class="text-center">
                                                 <a href="#" class="themebtn ">Select Tests</a>
-                                            <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
+                                                <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
                                             </div>
                                             <div class="blue-text-wrapp absolute">
                                                 <a href="#" class="fw-bold text-decoration-underline">Total Test 24</a>
@@ -532,7 +586,7 @@
                                             </div>
                                             <div class="text-center">
                                                 <a href="#" class="themebtn ">Select Tests</a>
-                                            <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
+                                                <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
                                             </div>
                                             <div class="blue-text-wrapp absolute">
                                                 <a href="#" class="fw-bold text-decoration-underline">Total Test 24</a>
@@ -556,7 +610,7 @@
                                             </div>
                                             <div class="text-center">
                                                 <a href="#" class="themebtn ">Select Tests</a>
-                                            <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
+                                                <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
                                             </div>
                                             <div class="blue-text-wrapp absolute">
                                                 <a href="#" class="fw-bold text-decoration-underline">Total Test 24</a>
@@ -576,7 +630,7 @@
                                             </div>
                                             <div class="text-center">
                                                 <a href="#" class="themebtn ">Select Tests</a>
-                                            <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
+                                                <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
                                             </div>
                                             <div class="blue-text-wrapp absolute">
                                                 <a href="#" class="fw-bold text-decoration-underline">Total Test 24</a>
@@ -596,7 +650,7 @@
                                             </div>
                                             <div class="text-center">
                                                 <a href="#" class="themebtn ">Select Tests</a>
-                                            <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
+                                                <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
                                             </div>
                                             <div class="blue-text-wrapp absolute">
                                                 <a href="#" class="fw-bold text-decoration-underline">Total Test 24</a>
@@ -620,7 +674,7 @@
                                             </div>
                                             <div class="text-center">
                                                 <a href="#" class="themebtn ">Select Tests</a>
-                                            <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
+                                                <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
                                             </div>
                                             <div class="blue-text-wrapp absolute">
                                                 <a href="#" class="fw-bold text-decoration-underline">Total Test 24</a>
@@ -640,7 +694,7 @@
                                             </div>
                                             <div class="text-center">
                                                 <a href="#" class="themebtn ">Select Tests</a>
-                                            <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
+                                                <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
                                             </div>
                                             <div class="blue-text-wrapp absolute">
                                                 <a href="#" class="fw-bold text-decoration-underline">Total Test 24</a>
@@ -660,7 +714,7 @@
                                             </div>
                                             <div class="text-center">
                                                 <a href="#" class="themebtn ">Select Tests</a>
-                                            <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
+                                                <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
                                             </div>
                                             <div class="blue-text-wrapp absolute">
                                                 <a href="#" class="fw-bold text-decoration-underline">Total Test 24</a>
@@ -684,7 +738,7 @@
                                             </div>
                                             <div class="text-center">
                                                 <a href="#" class="themebtn ">Select Tests</a>
-                                            <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
+                                                <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
                                             </div>
                                             <div class="blue-text-wrapp absolute">
                                                 <a href="#" class="fw-bold text-decoration-underline">Total Test 24</a>
@@ -704,7 +758,7 @@
                                             </div>
                                             <div class="text-center">
                                                 <a href="#" class="themebtn ">Select Tests</a>
-                                            <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
+                                                <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
                                             </div>
                                             <div class="blue-text-wrapp absolute">
                                                 <a href="#" class="fw-bold text-decoration-underline">Total Test 24</a>
@@ -724,7 +778,7 @@
                                             </div>
                                             <div class="text-center">
                                                 <a href="#" class="themebtn ">Select Tests</a>
-                                            <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
+                                                <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
                                             </div>
                                             <div class="blue-text-wrapp absolute">
                                                 <a href="#" class="fw-bold text-decoration-underline">Total Test 24</a>
@@ -748,7 +802,7 @@
                                             </div>
                                             <div class="text-center">
                                                 <a href="#" class="themebtn ">Select Tests</a>
-                                            <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
+                                                <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
                                             </div>
                                             <div class="blue-text-wrapp absolute">
                                                 <a href="#" class="fw-bold text-decoration-underline">Total Test 24</a>
@@ -768,7 +822,7 @@
                                             </div>
                                             <div class="text-center">
                                                 <a href="#" class="themebtn ">Select Tests</a>
-                                            <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
+                                                <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
                                             </div>
                                             <div class="blue-text-wrapp absolute">
                                                 <a href="#" class="fw-bold text-decoration-underline">Total Test 24</a>
@@ -788,7 +842,7 @@
                                             </div>
                                             <div class="text-center">
                                                 <a href="#" class="themebtn ">Select Tests</a>
-                                            <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
+                                                <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
                                             </div>
                                             <div class="blue-text-wrapp absolute">
                                                 <a href="#" class="fw-bold text-decoration-underline">Total Test 24</a>
@@ -812,7 +866,7 @@
                                             </div>
                                             <div class="text-center">
                                                 <a href="#" class="themebtn ">Select Tests</a>
-                                            <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
+                                                <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
                                             </div>
                                             <div class="blue-text-wrapp absolute">
                                                 <a href="#" class="fw-bold text-decoration-underline">Total Test 24</a>
@@ -832,7 +886,7 @@
                                             </div>
                                             <div class="text-center">
                                                 <a href="#" class="themebtn ">Select Tests</a>
-                                            <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
+                                                <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
                                             </div>
                                             <div class="blue-text-wrapp absolute">
                                                 <a href="#" class="fw-bold text-decoration-underline">Total Test 24</a>
@@ -852,7 +906,7 @@
                                             </div>
                                             <div class="text-center">
                                                 <a href="#" class="themebtn ">Select Tests</a>
-                                            <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
+                                                <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
                                             </div>
                                             <div class="blue-text-wrapp absolute">
                                                 <a href="#" class="fw-bold text-decoration-underline">Total Test 24</a>
@@ -876,7 +930,7 @@
                                             </div>
                                             <div class="text-center">
                                                 <a href="#" class="themebtn ">Select Tests</a>
-                                            <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
+                                                <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
                                             </div>
                                             <div class="blue-text-wrapp absolute">
                                                 <a href="#" class="fw-bold text-decoration-underline">Total Test 24</a>
@@ -896,7 +950,7 @@
                                             </div>
                                             <div class="text-center">
                                                 <a href="#" class="themebtn ">Select Tests</a>
-                                            <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
+                                                <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
                                             </div>
                                             <div class="blue-text-wrapp absolute">
                                                 <a href="#" class="fw-bold text-decoration-underline">Total Test 24</a>
@@ -916,7 +970,7 @@
                                             </div>
                                             <div class="text-center">
                                                 <a href="#" class="themebtn ">Select Tests</a>
-                                            <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
+                                                <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
                                             </div>
                                             <div class="blue-text-wrapp absolute">
                                                 <a href="#" class="fw-bold text-decoration-underline">Total Test 24</a>
@@ -940,7 +994,7 @@
                                             </div>
                                             <div class="text-center">
                                                 <a href="#" class="themebtn ">Select Tests</a>
-                                            <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
+                                                <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
                                             </div>
                                             <div class="blue-text-wrapp absolute">
                                                 <a href="#" class="fw-bold text-decoration-underline">Total Test 24</a>
@@ -960,7 +1014,7 @@
                                             </div>
                                             <div class="text-center">
                                                 <a href="#" class="themebtn ">Select Tests</a>
-                                            <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
+                                                <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
                                             </div>
                                             <div class="blue-text-wrapp absolute">
                                                 <a href="#" class="fw-bold text-decoration-underline">Total Test 24</a>
@@ -980,7 +1034,7 @@
                                             </div>
                                             <div class="text-center">
                                                 <a href="#" class="themebtn ">Select Tests</a>
-                                            <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
+                                                <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
                                             </div>
                                             <div class="blue-text-wrapp absolute">
                                                 <a href="#" class="fw-bold text-decoration-underline">Total Test 24</a>
@@ -1004,7 +1058,7 @@
                                             </div>
                                             <div class="text-center">
                                                 <a href="#" class="themebtn ">Select Tests</a>
-                                            <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
+                                                <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
                                             </div>
                                             <div class="blue-text-wrapp absolute">
                                                 <a href="#" class="fw-bold text-decoration-underline">Total Test 24</a>
@@ -1024,7 +1078,7 @@
                                             </div>
                                             <div class="text-center">
                                                 <a href="#" class="themebtn ">Select Tests</a>
-                                            <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
+                                                <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
                                             </div>
                                             <div class="blue-text-wrapp absolute">
                                                 <a href="#" class="fw-bold text-decoration-underline">Total Test 24</a>
@@ -1044,7 +1098,7 @@
                                             </div>
                                             <div class="text-center">
                                                 <a href="#" class="themebtn ">Select Tests</a>
-                                            <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
+                                                <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
                                             </div>
                                             <div class="blue-text-wrapp absolute">
                                                 <a href="#" class="fw-bold text-decoration-underline">Total Test 24</a>
@@ -1053,9 +1107,9 @@
                                     </div>
                                 </div>
                             </div>
-                          </div>
+                        </div>
                     </div>
-                    
+
                 </div>
                 <div class="prmotion-block">
                     <a href="#">
@@ -1081,12 +1135,14 @@
         <!-- ===============Diagnostics/Lab Tests================= -->
         <footer class="site_footer position-relative">
             <!--========Our Location===========-->
-            <section class=" our_location cs_py" style="background: url(images/Our_Services/location_bg.png) no-repeat center top/contain;">
+            <section class=" our_location cs_py"
+                style="background: url(images/Our_Services/location_bg.png) no-repeat center top/contain;">
                 <div class="container pt-xl-3">
                     <div class="col-xl-9 col-lg-10 mx-auto">
                         <div class="row align-items-center">
                             <div class="col-md-4 text-right pr-4">
-                                <h2 class="fz_h1 lh_1 m-0 fw_300"><span class="fw_700 d-block fz_85">Our</span> Locations</h2>
+                                <h2 class="fz_h1 lh_1 m-0 fw_300"><span class="fw_700 d-block fz_85">Our</span>
+                                    Locations</h2>
                             </div>
                             <div class="col-md-8">
                                 <div class="location_slider cs-arrow  ">
@@ -1214,7 +1270,8 @@
                             <div class="newletter_card">
                                 <div class="row align-items-center">
                                     <div class="col-md-3">
-                                        <h2 class="lh_11 section_title m-0"><span class="fz_85">Subscribe</span><span class="fw_300 d-block"> Newsletter</span></h2>
+                                        <h2 class="lh_11 section_title m-0"><span class="fz_85">Subscribe</span><span
+                                                class="fw_300 d-block"> Newsletter</span></h2>
                                     </div>
                                     <div class="col-md-9">
                                         <form action="" class="">
@@ -1224,7 +1281,8 @@
                                                     <i class="fa-solid fa-arrow-right-long"></i>
                                                 </button>
                                             </div>
-                                            <p class="pt-2 fw_700 m-0">Get all the latest information on our products and services, sign up for newsletter today.</p>
+                                            <p class="pt-2 fw_700 m-0">Get all the latest information on our products
+                                                and services, sign up for newsletter today.</p>
                                         </form>
                                     </div>
                                 </div>
@@ -1244,7 +1302,9 @@
                                         <a href="index.html" class="footer_logo p-0 col-xl-8 d-inline-block mb-3">
                                             <img src="images/f_logo.png" alt="">
                                         </a>
-                                        <p>Welleazy is a prominent healthtech company offering tailor made solutions to its corporate customers making their health care needs accessible and affordable.</p>
+                                        <p>Welleazy is a prominent healthtech company offering tailor made solutions to
+                                            its corporate customers making their health care needs accessible and
+                                            affordable.</p>
                                     </div>
                                 </div>
                                 <div class="col-md-6 pt-4">
@@ -1257,7 +1317,8 @@
                                             <a href="mailto:hello@welleazy.com">Email:hello@welleazy.com </a>
                                         </li>
                                         <li>
-                                            <address>Address: No.31, 3rd Floor, 09th Main Road,<br> 6th Sector, HSR Layout, Bangalore-560102</address>
+                                            <address>Address: No.31, 3rd Floor, 09th Main Road,<br> 6th Sector, HSR
+                                                Layout, Bangalore-560102</address>
                                         </li>
                                     </ul>
                                 </div>
@@ -1299,16 +1360,20 @@
             </div>
             <div class="footer_secondary fz_13" style="background: #033D64;  color:#bcd3e5;">
                 <div class="container d-flex align-items-center pt-3">
-                    <p>Copyright © <a href="https://welleazy.com/" target='_blank' class="ci">welleazy.com</a> © 2022. All Rights Reserved.</p>
+                    <p>Copyright © <a href="https://welleazy.com/" target='_blank' class="ci">welleazy.com</a> © 2022.
+                        All Rights Reserved.</p>
                     <ul class="nav ml-auto mb-3 social_media ">
-                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a></li>
+                        <li><a href="https://www.facebook.com/" target="_blank"><i
+                                    class="fa-brands fa-square-facebook"></i></a></li>
                         <li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
-                        <li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
                     </ul>
                 </div>
             </div>
             <div class="f_fixed_link">
-                <a href="#" class=" themebtn " id='feedback_link'><img src="images/feedback.png" alt="" width="20" class="mr-2"> Feedback</a>
+                <a href="#" class=" themebtn " id='feedback_link'><img src="images/feedback.png" alt="" width="20"
+                        class="mr-2"> Feedback</a>
                 <a href="#" class=" themebtn" id="chat_link"><img src="images/chat.png" alt=""></a>
             </div>
         </footer>
@@ -1333,10 +1398,12 @@
                             </div>
                             <div class="py-4 mx-auto row cs_row">
                                 <div class=" mb-2 col-sm-6">
-                                    <a href="javascript:void(0);" data-dismiss="modal" class="themebtn3 btn_center">Back</a>
+                                    <a href="javascript:void(0);" data-dismiss="modal"
+                                        class="themebtn3 btn_center">Back</a>
                                 </div>
                                 <div class="mb-2 col-sm-6">
-                                    <a href="javascript:void(0);" class="themebtn btn_center" id="allow_loc" data-dismiss="modal">Allow</a>
+                                    <a href="javascript:void(0);" class="themebtn btn_center" id="allow_loc"
+                                        data-dismiss="modal">Allow</a>
                                 </div>
                             </div>
                         </div>
@@ -1362,16 +1429,19 @@
                     <div class="row">
                         <div class="col-md-11 mx-auto">
                             <div class="fw-bold">
-                                Radiology and Pathology Tests cannot be booked together. If you wish to add Lipid Profile, all your radiology tests will be replaced.
+                                Radiology and Pathology Tests cannot be booked together. If you wish to add Lipid
+                                Profile, all your radiology tests will be replaced.
                             </div>
                             <div class="py-4 mx-auto row cs_row">
                                 <div class="col-md-12 mx-auto">
                                     <div class="row">
                                         <div class=" mb-2 col-sm-7">
-                                            <a href="DLT-non-sponsored-lab-list.html" class="themebtn3 btn_center">No, Keep My Added Tests</a>
+                                            <a href="DLT-non-sponsored-lab-list.html" class="themebtn3 btn_center">No,
+                                                Keep My Added Tests</a>
                                         </div>
                                         <div class="mb-2 col-sm-5">
-                                            <a href="DLT-non-sponsored-lab-list.html" class="themebtn btn_center">Yes, Replace</a>
+                                            <a href="DLT-non-sponsored-lab-list.html" class="themebtn btn_center">Yes,
+                                                Replace</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1406,16 +1476,18 @@
                             <div class="modal-radio-block pt-2">
                                 <div class="input_radiobtn cs_ratiobtn d-flex justify-content-center ">
                                     <div class="position-relative mr-4">
-                                        <input type="radio" class="form-check-input Self" id="Self1" name="optradio" checked="">
+                                        <input type="radio" class="form-check-input Self" id="Self1" name="optradio"
+                                            checked="">
                                         <label class="form-check-label" for="Self1">Self
                                         </label>
                                     </div>
                                     <div class="position-relative ">
-                                        <input type="radio" class="form-check-input Dependent" id="Dependent1" name="optradio">
+                                        <input type="radio" class="form-check-input Dependent" id="Dependent1"
+                                            name="optradio">
                                         <label class="form-check-label" for="Dependent1">Dependent
                                         </label>
                                     </div>
-                               </div>
+                                </div>
                             </div>
                             <div class="dependent-select pt-3">
                                 <select class="form-control">
@@ -1427,7 +1499,8 @@
                             </div>
                             <div class="pb-4 pt-3 row cs_row">
                                 <div class="mb-2 col-sm-8 mx-auto">
-                                    <a href="DLT-non-sponsored-lab-list.html" class="themebtn btn_center">Select Lab</a>
+                                    <a href="DLT-non-sponsored-lab-list.html" class="themebtn btn_center">Select Lab <i
+                                            class="fa-solid fa-arrow-right ml-1"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -1454,7 +1527,8 @@
                     <div class="row">
                         <div class="col-md-10 mx-auto">
                             <div class="fw-bold text-center">
-                                Sorry! we don't have this medical test available. Try searching in different diagnostic center
+                                Sorry! we don't have this medical test available. Try searching in different diagnostic
+                                center
                             </div>
                         </div>
                     </div>
@@ -1462,7 +1536,8 @@
                         <div class="col-md-7 mx-auto">
                             <div class="pb-4 row cs_row">
                                 <div class="mb-2 col-md-4 mx-auto">
-                                    <a href="javascript:void(0);" data-dismiss="modal" class="themebtn btn_center">Ok</a>
+                                    <a href="javascript:void(0);" data-dismiss="modal"
+                                        class="themebtn btn_center">Ok</a>
                                 </div>
                             </div>
                         </div>
@@ -1482,7 +1557,8 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/js/bootstrap-datepicker.min.js'></script>
+    <script
+        src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/js/bootstrap-datepicker.min.js'></script>
     <script src='js/site.js'></script>
     <script src='js/script.js'></script>
     <script src="js/main.js"></script>

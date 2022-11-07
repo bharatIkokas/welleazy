@@ -104,11 +104,13 @@ $('.time_hti >span').on('click', function() {
 
 // Select Lab
 $('.select-lab').click(function () {
+  
    $(this).text('Selecting Lab');
    setTimeout(() => {
     $(this).parent().children('.select-lab').addClass('d-none');
     $(this).parent().children('.added-to-cart').removeClass('d-none');
-}, 2000); // Delay of 3 seconds
+    $('.cart-block').show();
+}, 1000); // Delay of 1 seconds
 });
 
 //Multi Select

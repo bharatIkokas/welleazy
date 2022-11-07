@@ -418,3 +418,26 @@ function closeAllSelect(elmnt) {
 /*if the user clicks anywhere outside the select box,
 then close all select boxes:*/
 document.addEventListener("click", closeAllSelect);
+
+$('.minus').click(function () {
+  var $input = $(this).parent().find('input');
+  var count = parseInt($input.val()) - 1;
+  count = count < 1 ? 1 : count;
+  $input.val(count);
+  $input.change();
+  return false;
+});
+$('.plus').click(function () {
+  var $input = $(this).parent().find('input');
+  $input.val(parseInt($input.val()) + 1);
+  $input.change();
+  return false;
+});
+
+$('.cart-link').click(function () {
+  $('.cart-block').toggle();
+});
+
+function pageRedirect() {
+  window.location.replace("DLT-non-sponsored-cart.html");
+} 

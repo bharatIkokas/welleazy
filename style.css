@@ -629,7 +629,7 @@ img {
     content: '';
     position: absolute;
     right: 9px;
-    top: 16px;
+    top: 21px;
     width: 7px;
     height: 7px;
     border: 1px solid currentcolor;
@@ -830,7 +830,7 @@ section {
     margin-bottom: 5px;
 }
 .navmenu_nav a {
-    padding: .6rem 1rem .6rem 1.5rem !important;
+    padding: .6rem 0rem .6rem 1.5rem !important;
     display: block;
     color: #fff;
 }
@@ -2798,5 +2798,105 @@ input.form-control.sm {padding: 0 10px; height: 22px; width: 60px;}
 .custom-select.readonly {
     pointer-events: none;
     background: #f7f7f7 !important;
+}
+
+.text-success {
+    color: #13B10E !important;
+}
+
+.text-warning {
+    color: #B2A507 !important;
+}
+
+.text-danger {
+    color: #C66868 !important;
+}
+
+.cart-block {
+    min-width: 250px;
+    min-height: 200px;
+    background-color: #ffffff;
+    box-shadow: 0px 3px 6px #00000029;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    padding: 10px;
+    display: none;
+}
+
+.cart-image-block img {
+    max-width: 30px !important;
+    max-height: 30px !important;
+    border-radius: 10px; 
+    object-fit: cover;
+}
+
+.cart-image-block {
+    margin-right: 10px;
+}
+
+.cart-cnt {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px
+}
+
+.cart-cnt:nth-last-child(1) {
+    margin-bottom: 0px
+}
+
+.cart-titles-block,
+.cart-amount {
+    font-size: 12px;
+}
+
+.cart-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.number span {
+    cursor:pointer; 
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+    margin-right: 10px;
+}
+
+.minus, .plus{
+    width: 14px;
+    height: 14px;
+    border-radius: 4px;
+    padding: 8px 5px 8px 5px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #DFE8F2;
+}
+
+.number input{
+    height: 34px;
+    width: 20px;
+    text-align: center;
+    font-size: 12px;
+    border: 0;
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.themebtn.view-cart-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: block !important;
+    cursor: pointer;
 }
 

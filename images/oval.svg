@@ -1,14 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="682.51" height="567.663" viewBox="0 0 682.51 567.663">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="939.205" height="781.164" viewBox="0 0 939.205 781.164">
   <defs>
     <clipPath id="clip-path">
-      <path id="Path_5222" data-name="Path 5222" d="M109.348,271.485C-44.616,324.188-18.015,517.032,78.6,567.662H502.678c126.6-73.808,179.691-196.58,179.833-308.895v-.949c-.169-122.38-63.2-232.13-162.429-252.186A266.753,266.753,0,0,0,467.214,0C287.229,0,264.548,218.36,109.348,271.485" transform="translate(0)" fill="none"/>
+      <path id="Path_5222" data-name="Path 5222" d="M150.474,373.592c-211.871,72.524-175.265,337.9-42.31,407.57l583.573,0C865.956,679.6,939.01,510.649,939.206,356.092v-1.306c-.232-168.408-86.965-319.435-223.52-347.034A367.079,367.079,0,0,0,642.935,0C395.257,0,364.045,300.487,150.474,373.592" transform="translate(0)" fill="none"/>
     </clipPath>
     <linearGradient id="linear-gradient" x1="0.124" y1="0.781" x2="0.125" y2="0.781" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#f5f7ff"/>
       <stop offset="1" stop-color="#f4f4f6"/>
     </linearGradient>
   </defs>
-  <g id="Group_26380" data-name="Group 26380" opacity="0.22" clip-path="url(#clip-path)">
-    <path id="Path_5223" data-name="Path 5223" d="M105.957,113.545,1039.122,0,933.166,932.63,0,1046.175Z" transform="matrix(0.8, -0.6, 0.6, 0.8, -410.55, 177.066)" fill="url(#linear-gradient)"/>
+  <g id="Group_26380" data-name="Group 26380" clip-path="url(#clip-path)">
+    <path id="Path_5223" data-name="Path 5223" d="M0,0,1284.133-156.249l-145.807,1283.4L-145.807,1283.4Z" transform="matrix(0.8, -0.6, 0.6, 0.8, -354.565, 281.186)" fill="url(#linear-gradient)"/>
   </g>
 </svg>

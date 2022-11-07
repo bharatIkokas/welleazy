@@ -45,7 +45,30 @@
                 </div>
                 <!--collapse menu-->
                 <div class="clt_nav nav ml-2">
-                    <a href="#" class="cs_cart cs_icon"></a>
+                    <a href="#" class="cs_cart cs_icon position-relative cart-link">
+                        <span class="cs_badge">1</span>
+                        <div class="cart-block">
+                            <div class="cart-title">Cart</div>
+                            <div class="cart-cnt">
+                                <div class="d-flex align-items-center">
+                                    <div class="cart-image-block">
+                                        <img src="img/dlt-list-2.png" alt="">
+                                    </div>
+                                    <div class="cart-titles-block">
+                                        <div class="black-text">Lipid Profile</div>
+                                        <div class="gray-text">Sub information</div>
+                                    </div>
+                                </div>
+                                <div class="number">
+                                    <span class="minus">-</span>
+                                    <input type="text" value="1"/>
+                                    <span class="plus">+</span>
+                                </div>
+                                <div class="cart-amount">RS 300</div>
+                            </div>
+                            <div class="themebtn view-cart-btn" onclick="pageRedirect();">View Cart</div>
+                        </div>
+                    </a>
                     <a href="#" class="cs_wallet cs_icon"></a>
                     <a href="#" class="cs_notification cs_icon"><span class="cs_badge">3</span></a>
                     <a href="#" class="cs_user cs_icon"></a>
@@ -162,6 +185,35 @@
             </div>
 
         <!-- ===============Diagnostics/Lab Tests================= -->
+        <h2 class="section-title text-center pt-5">My Plans</h2>
+                <div class="container">
+                    <div class="row cs_row10 py-5">
+                        <div class="col-md-4 text-center">
+                            <div class="st-block position-relative">
+                                <span class="dt-text">-25%</span>
+                                <h5 class="fw-bold pt-3">Package 1</h5>
+                                <figure class="text-center py-2">
+                                    <img src="img/hp-1.png" alt="">
+                                </figure>
+                                <div class="black-text text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem</div>
+                                <div class="text-left py-3">Peripheral Smear Examination Complete Haemogram(includes 14 tests)</div>
+                                <div class="pb-3 d-flex justify-content-between">
+                                    <a href="#">+More</a>
+                                    <a href="#">Package Details</a>
+                                </div>
+                                <div class="pb-2">
+                                    <span class="blue-text">Rs 0</span>
+                                    <strike class="text_sm">Rs 380</strike>
+                                    <span class="red-text text_sm">(71%OFF)</span>
+                                </div>
+                                <a href="javascript:void(0);" class="themebtn ">Select Tests</a>
+                                <div class="blue-text-wrapp text-center">
+                                    <span class="text-xsm d-block pt-2">Validity Till Jan 2023</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         <div class="section pt-5">
             <div class="container">
                 <h2 class="section-title text-center">Comprehensive Health Plans</h2>
@@ -1309,7 +1361,8 @@
                             </div>
                             <div class="pb-4 pt-3 row cs_row">
                                 <div class="mb-2 col-sm-8 mx-auto">
-                                    <a href="AHP-non-sponsored-lab-list.html" class="themebtn btn_center">Select Lab</a>
+                                    <a href="AHP-non-sponsored-lab-list.html" class="themebtn btn_center">Select Lab <i
+                                        class="fa-solid fa-arrow-right ml-1"></i></a>
                                 </div>
                             </div>
                         </div>

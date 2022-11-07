@@ -45,7 +45,30 @@
                 </div>
                 <!--collapse menu-->
                 <div class="clt_nav nav ml-2">
-                    <a href="#" class="cs_cart cs_icon"></a>
+                    <a href="#" class="cs_cart cs_icon position-relative cart-link">
+                        <span class="cs_badge">1</span>
+                        <div class="cart-block">
+                            <div class="cart-title">Cart</div>
+                            <div class="cart-cnt">
+                                <div class="d-flex align-items-center">
+                                    <div class="cart-image-block">
+                                        <img src="img/dlt-list-2.png" alt="">
+                                    </div>
+                                    <div class="cart-titles-block">
+                                        <div class="black-text">Lipid Profile</div>
+                                        <div class="gray-text">Sub information</div>
+                                    </div>
+                                </div>
+                                <div class="number">
+                                    <span class="minus">-</span>
+                                    <input type="text" value="1"/>
+                                    <span class="plus">+</span>
+                                </div>
+                                <div class="cart-amount">RS 300</div>
+                            </div>
+                            <div class="themebtn view-cart-btn" onclick="pageRedirect();">View Cart</div>
+                        </div>
+                    </a>
                     <a href="#" class="cs_wallet cs_icon"></a>
                     <a href="#" class="cs_notification cs_icon"><span class="cs_badge">3</span></a>
                     <a href="#" class="cs_user cs_icon"></a>
