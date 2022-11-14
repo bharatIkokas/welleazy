@@ -283,13 +283,14 @@ var interval;
 
 $(document).ready(function() {
   $("#rensend_1").click(function() {
+    $('#timer').hide();
     mins = 1;
     secs = 0;
     var btn = $(this);
     btn.attr("disabled", true);
     interval = setInterval(function() {
       if (mins >= 0 && secs >= 0) {
-        btn.text("Resend Code in " + pad(mins, 2) + ":" + pad(secs, 2));
+        btn.text(" " + pad(mins, 2) + ":" + pad(secs, 2));
         if (secs > 0) {
           secs--;
         } else {
@@ -419,6 +420,8 @@ function closeAllSelect(elmnt) {
 then close all select boxes:*/
 document.addEventListener("click", closeAllSelect);
 
+
+// Cart plus minus
 $('.minus').click(function () {
   var $input = $(this).parent().find('input');
   var count = parseInt($input.val()) - 1;
@@ -434,10 +437,82 @@ $('.plus').click(function () {
   return false;
 });
 
+
+// Cart Block
 $('.cart-link').click(function () {
   $('.cart-block').toggle();
 });
 
+// Cart page redirect
 function pageRedirect() {
   window.location.replace("DLT-non-sponsored-cart.html");
 } 
+
+
+// Side Menu On Mobile
+$('.menu-icon').click(function () {
+  $('.cs_sidenav').toggle();
+});
+
+
+//Shedule Time
+$('#shedule_appoitment').click(function() {
+  $('.before-shedule').addClass('d-none');
+  $('.after-shedule').show();
+});
+
+
+//OTP Sent
+let timerOn = true;
+
+function timer(remaining) {
+  var m = Math.floor(remaining / 60);
+  var s = remaining % 60;
+  
+  m = m < 10 ? '0' + m : m;
+  s = s < 10 ? '0' + s : s;
+  document.getElementById('timer').innerHTML = m + ':' + s;
+  remaining -= 1;
+  
+  if(remaining >= 0 && timerOn) {
+    setTimeout(function() {
+        timer(remaining);
+    }, 1000);
+    return;
+  }
+
+  if(!timerOn) {
+    // Do validate stuff here
+    return;
+  }
+  
+  // Do timeout stuff here
+  // alert('Timeout for otp');
+  // document.getElementById('timer').innerHTML = 'Resend'
+  $('#rensend_1').show();
+  $('#timer').hide();
+}
+
+timer(60);
+
+
+$('input[name=cor_email]').keyup(function(){
+  var isValid = $(this).is(':valid') && validateEmail($(this).val());
+
+  if (isValid){
+   $('#otp_sent_cnt').show();
+   $("#timer").show();
+   setTimeout(function() {
+          $('#otp_sent_cnt').hide();
+        }, 3000);
+  }
+  else{
+   $('#otp_sent_cnt').hide();
+   $("#timer").hide();
+  }
+});
+
+function validateEmail(email) {
+  var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  return re.test(String(email).toLowerCase());
+}

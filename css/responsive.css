@@ -3,7 +3,11 @@
 
 /*========================================*/
 
-@media all and (min-width: 768px) {}
+@media all and (min-width: 768px) {
+    .mobile-only {
+        display: none;
+    }
+}
 
 /*=====================================*/
 
@@ -123,6 +127,25 @@
     .themebtn2:active,
     .themebtn2:focus {
         font-size: 12px !important;
+    }
+
+    .site_body.side_nav_active .site_header, 
+    .site_body.side_nav_active .site-main {
+        width: 100%;
+    }
+
+    .cs_sidenav {
+        z-index: 99999;
+        display: none;
+    }
+
+    .site_header .navbar-brand {
+        max-width: 100px;
+        margin-top: 0;
+    }
+
+    .clt_nav.nav {
+        align-items: center;
     }
 }
 
