@@ -443,10 +443,28 @@ $('.cart-link').click(function () {
   $('.cart-block').toggle();
 });
 
+// Dropdown Block
+$('.drop-down-link').click(function () {
+  $(this).find('.dropdown-cnt').toggle();
+  $(this).find('.dropdown-cnt').toggleClass('opened');
+});
+
 // Cart page redirect
 function pageRedirect() {
   window.location.replace("DLT-non-sponsored-cart.html");
 } 
+
+function pageRedirectDltSponsored() {
+  window.location.replace("DLT-sponsored-cart.html");
+}
+
+function pageRedirectAhpNonSponsored() {
+  window.location.replace("AHP-non-sponsored-cart.html");
+}
+
+function pageRedirectAhpSponsored() {
+  window.location.replace("AHP-sponsored-cart.html");
+}
 
 
 // Side Menu On Mobile

@@ -32,7 +32,19 @@
                     <ul class="navbar-nav ">
                         <li class="nav-item"> <a class="nav-link active" href="index.html">Home</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="#">About Us</a> </li>
-                        <li class="nav-item has-children"> <a class="nav-link" href="#">Corporate Wellness Services </a> </li>
+                        <li class="nav-item has-children drop-down-link"> 
+                            <a class="nav-link" href="#">Corporate Wellness Services </a>
+                            <div class="dropdown-cnt">
+                                <ul>
+                                    <li><a href="#">Corporate Healthcare solution</a></li>
+                                    <li><a href="#">Employee Wellness programs</a></li>
+                                    <li><a href="#">Health Risk Assessment</a></li>
+                                    <li><a href="#">Pharmacy Order</a></li>
+                                    <li><a href="#">Covid Testing</a></li>
+                                    <li><a href="#">Care Programs</a></li>
+                                </ul>
+                            </div>
+                        </li>
                         <li class="nav-item active"> <a class="nav-link" href="our_services.html">Our Services</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="#">Pharmacy</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="DLT-non-sponsored-home.html">Book Lab Test</a> </li>
@@ -43,33 +55,57 @@
                 </div>
                 <!--collapse menu-->
                 <div class="clt_nav nav ml-2">
-                    <a href="#" class="cs_cart cs_icon position-relative cart-link">
-                        <span class="cs_badge">1</span>
-                        <div class="cart-block">
-                            <div class="cart-title">Cart</div>
-                            <div class="cart-cnt">
-                                <div class="d-flex align-items-center">
-                                    <div class="cart-image-block">
-                                        <img src="img/dlt-list-2.png" alt="">
+                    <ul class="header-right-menu">
+                        <li>
+                            <a href="#" class="cs_cart cs_icon position-relative cart-link">
+                                <span class="cs_badge">1</span>
+                                <div class="cart-block">
+                                    <div class="cart-title">Cart</div>
+                                    <div class="cart-cnt">
+                                        <div class="d-flex align-items-center">
+                                            <div class="cart-image-block">
+                                                <img src="img/dlt-list-2.png" alt="">
+                                            </div>
+                                            <div class="cart-titles-block">
+                                                <div class="black-text">Lipid Profile</div>
+                                                <div class="gray-text">Sub information</div>
+                                            </div>
+                                        </div>
+                                        <div class="number">
+                                            <span class="minus">-</span>
+                                            <input type="text" value="1"/>
+                                            <span class="plus">+</span>
+                                        </div>
+                                        <div class="cart-amount">RS 300</div>
                                     </div>
-                                    <div class="cart-titles-block">
-                                        <div class="black-text">Lipid Profile</div>
-                                        <div class="gray-text">Sub information</div>
-                                    </div>
+                                    <div class="themebtn view-cart-btn" onclick="pageRedirect();">View Cart</div>
                                 </div>
-                                <div class="number">
-                                    <span class="minus">-</span>
-                                    <input type="text" value="1"/>
-                                    <span class="plus">+</span>
+                            </a>
+                        </li>
+                        <li><a href="#" class="cs_wallet cs_icon"></a></li>
+                        <li><a href="#" class="cs_notification cs_icon"><span class="cs_badge">3</span></a></li>
+                        <li class="drop-down-link">
+                            <a href="#" class="cs_user cs_icon">
+                            </a>
+                            <div class="dropdown-cnt fixed">
+                                <div class="drop-header">
+                                    <div class="drop-down-title">Ramsha Sajid</div>
+                                <div class="drop-down-sub">Member ID :-XXXXXXXXX</div>
                                 </div>
-                                <div class="cart-amount">RS 300</div>
+                                <ul>
+                                    <li><a href="edit-profile–1.html"><img src="img/profile.svg" alt=""> Manage Profile</a></li>
+                                    <li><a href="AHP-non-sponsored-home.html"><img src="img/plan.svg" alt=""> My Plans</a></li>
+                                    <li><a href="my-appointements–1.html"><img src="img/appointement.svg" alt=""> My Appointments</a></li>
+                                    <li><a href="address-book–1.html"><img src="img/adress-book.svg" alt=""> My Address Book</a></li>
+                                    <li><a href="my-orders–2_services.html"><img src="img/services.svg" alt=""> My Services</a></li>
+                                    <li><a href="transactions–1.html"><img src="img/payments.svg" alt=""> My Payments</a></li>
+                                    <li><a href="#"><img src="img/health-records.svg" alt=""> My Health Records</a></li>
+                                    <li><a href="#"><img src="img/health-assesment.svg" alt=""> My Health Assessment</a></li>
+                                    <li><a href="index.html"><img src="img/logout.svg" alt=""> Logout</a></li>
+                                </ul>
                             </div>
-                            <div class="themebtn view-cart-btn" onclick="pageRedirect();">View Cart</div>
-                        </div>
-                    </a>
-                    <a href="#" class="cs_wallet cs_icon"></a>
-                    <a href="#" class="cs_notification cs_icon"><span class="cs_badge">3</span></a>
-                    <a href="#" class="cs_user cs_icon"></a>
+                        </li>
+                    </ul>
                     <a href="javascript:void(0);" class="menu-icon mobile-only"><img src="img/menu-icon.svg" alt=""></a>
                 </div>
             </div>
@@ -171,6 +207,7 @@
                                     <figcaption class='h6 ci pt-2'>
                                         Video/Tele/Chat Consultation
                                     </figcaption>
+                                    <a href="opd-physical-sponserd-video-tele.html" class="stretched-link"></a>
                                 </figure>
                             </div>
                             <div class="item">
@@ -181,6 +218,7 @@
                                     <figcaption class='h6 ci pt-2'>
                                         Family Clinic
                                     </figcaption>
+                                    <a href="opd-physical-sponserd-family-clinic.html" class="stretched-link"></a>
                                 </figure>
                             </div>
                             <div class="item">
@@ -191,6 +229,7 @@
                                     <figcaption class='h6 ci pt-2'>
                                         International Consultation
                                     </figcaption>
+                                    <a href="opd-physical-sponserd-ic.html" class="stretched-link"></a>
                                 </figure>
                             </div>
 
@@ -202,6 +241,7 @@
                                     <figcaption class='h6 ci pt-2'>
                                         Doctor @ home
                                     </figcaption>
+                                    <a href="opd-physical-sponserd-dh.html" class="stretched-link"></a>
                                 </figure>
                             </div>
                             <div class="item">
@@ -242,7 +282,7 @@
                             <div class="col-sm-6 lh_14 ">
                                 <h2 class="theme-color2 mb-4">Sponsored Services</h2>
                                 <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
-                                <a href='#' class="themebtn  mt-3">Know More</a>
+                                <a href='AHP-non-sponsored-home.html' class="themebtn  mt-3">Know More</a>
 
                             </div>
 
