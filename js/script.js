@@ -443,10 +443,31 @@ $('.cart-link').click(function () {
   $('.cart-block').toggle();
 });
 
+$('.w-link').click(function () {
+  $('.wallet').toggle();
+  $('.wallet').toggleClass('opened');
+});
+
 // Dropdown Block
 $('.drop-down-link').click(function () {
   $(this).find('.dropdown-cnt').toggle();
   $(this).find('.dropdown-cnt').toggleClass('opened');
+});
+
+// Wallet
+$('.waalet-showable-item').click(function () {
+  $(this).next('.waalet-cnt').toggle();
+});
+
+$('.s-confirm').click(function () {
+  $('.s-confirm-block').show();
+  $('.scanner-block').hide();
+});
+
+$('.s-otp').click(function () {
+  $('.s-otp-block').show();
+  $('.s-confirm-block').hide();
+  $('.scanner-block').hide();
 });
 
 // Cart page redirect
@@ -534,3 +555,18 @@ function validateEmail(email) {
   var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
   return re.test(String(email).toLowerCase());
 }
+
+//OTP
+let digitValidate = function(ele){
+  console.log(ele.value);
+  ele.value = ele.value.replace(/[^0-9]/g,'');
+}
+
+let tabChange = function(val){
+    let ele = document.querySelectorAll('input');
+    if(ele[val-1].value != ''){
+      ele[val].focus()
+    }else if(ele[val-1].value == ''){
+      ele[val-2].focus()
+    }   
+ }
