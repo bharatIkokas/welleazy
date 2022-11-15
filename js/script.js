@@ -441,17 +441,23 @@ $('.plus').click(function () {
 // Cart Block
 $('.cart-link').click(function () {
   $('.cart-block').toggle();
+  $('.wallet').hide();
+  $('.dropdown-cnt').hide();
 });
 
 $('.w-link').click(function () {
   $('.wallet').toggle();
   $('.wallet').toggleClass('opened');
+  $('.cart-block').hide();
+  $('.dropdown-cnt').hide();
 });
 
 // Dropdown Block
 $('.drop-down-link').click(function () {
   $(this).find('.dropdown-cnt').toggle();
   $(this).find('.dropdown-cnt').toggleClass('opened');
+  $('.cart-block').hide();
+  $('.wallet').hide();
 });
 
 // Wallet

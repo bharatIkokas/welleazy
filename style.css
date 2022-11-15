@@ -2834,7 +2834,8 @@ input.form-control.sm {padding: 0 10px; height: 22px; width: 60px;}
     display: none;
 }
 
-.dropdown-cnt {
+.dropdown-cnt,
+.wallet {
     min-width: 100%;
     background-color: #ffffff;
     box-shadow: 0px 3px 6px #00000029;
@@ -2856,7 +2857,8 @@ input.form-control.sm {padding: 0 10px; height: 22px; width: 60px;}
     padding: 10px 10px 0 10px;
 }
 
-.dropdown-cnt:before {
+.dropdown-cnt::before,
+.wallet::before {
     content: '';
     position: absolute;
     height: 5px;
@@ -2869,7 +2871,8 @@ input.form-control.sm {padding: 0 10px; height: 22px; width: 60px;}
     transition: .35s;
 }
 
-.dropdown-cnt:after {
+.dropdown-cnt::after,
+.wallet::after {
     content: '';
     position: absolute;
     height: 0;
@@ -2883,7 +2886,8 @@ input.form-control.sm {padding: 0 10px; height: 22px; width: 60px;}
     transition: .35s;
 }
 
-.dropdown-cnt.opened:after {
+.dropdown-cnt.opened:after,
+.wallet.opened:after {
     top: -6px;
     border-bottom: 8px solid var(--theme-color);
 }
@@ -3088,16 +3092,16 @@ input.form-control.sm {padding: 0 10px; height: 22px; width: 60px;}
     width: 35px;
 }
 
-.dropdown-cnt.fixed.wallet {
+.fixed.wallet {
     min-width: 251px;
     padding: 10px;
 }
 
-.cs_checkbox.square.top-0 label:before {
+.wallet .cs_checkbox.square.top-0 label:before {
     top: -7px;
 }
 
-.cs_checkbox.square.top-0 input[type="checkbox"]:checked + label:after {
+.wallet .cs_checkbox.square.top-0 input[type="checkbox"]:checked + label:after {
     top: -3px;
 }
 

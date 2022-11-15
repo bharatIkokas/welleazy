@@ -1250,6 +1250,129 @@
     </main>
 
     <!--====================Modal Start==================-->
+    <div class="modal fade cs_modal" id="w_scanner" aria-modal="true" role="dialog">
+        <div class="modal-dialog modal-dialog-centered modal-md">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header border-0">
+                    <img src="images/logo.svg" alt="logo" class="m-logo">
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body pt-0">
+                    <div class="scanner-block">
+                        <div class="row">
+                            <div class="col-md-8 mx-auto">
+                                <img src="img/scanner.svg" alt="" class="w-100">
+                                
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 text_sm text-center">
+                                Scan the Barcode to Make Payment
+                            </div>
+                        </div>
+                        <div class="pb-4 pt-3 row cs_row">
+                            <div class="mb-2 col-sm-4 mx-auto">
+                                <a href="javascript:void(0);" class="themebtn btn_center s-confirm">Confirm</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="s-confirm-block">
+                        <div class="row">
+                            <div class="col-md-7 mx-auto text-center">
+                                Paying Welleazy Business Welleazybusiness@paytm Banking Name :Welleazy Business
+                            </div>
+                            <div class="col-md-12 text-center mt-4 mb-4">
+                                <div class="to-be-pay">RS 4500</div>
+                            </div>
+                        </div>
+                        <div class="pb-4 pt-3 row cs_row">
+                            <div class="mb-2 col-sm-4 mx-auto">
+                                <a href="javascript:void(0);" class="themebtn btn_center s-otp">Submit</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="s-otp-block">
+                        <div class="row">
+                            <div class="col-md-7 mx-auto text-center fz_75">
+                                We’ve sent a verification code to your email - kedar.chavan@ikokas.com
+                            </div>
+                            <div class="col-md-12 text-center my-2">
+                                <div class="enter-code">ENTER CODE</div>
+                            </div>
+                            <div class="col-md-12 otp-fileds-block text-center mb-3">
+                                <form>
+                                    <input class="otp" type="text" oninput='digitValidate(this)' onkeyup='tabChange(1)' maxlength=1 >
+                                    <input class="otp" type="text" oninput='digitValidate(this)' onkeyup='tabChange(2)' maxlength=1 >
+                                    <input class="otp" type="text" oninput='digitValidate(this)' onkeyup='tabChange(3)' maxlength=1 >
+                                    <input class="otp" type="text" oninput='digitValidate(this)'onkeyup='tabChange(4)' maxlength=1 >
+                                  </form>
+                                  <div class="d-flex align-items-center justify-content-center">
+                                    <div>
+                                        <button class="resend btn-null ml-4 ci cp"><img src="img/resend.svg" alt=""> Resend
+                                        </button>
+                                    </div>
+                                    <div>
+                                        <button class="resend btn-null ml-4 ci cp"><img src="img/left.svg" alt=""> 30 Sec Left
+                                        </button>
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="pb-4 pt-3 row cs_row">
+                            <div class="mb-2 col-sm-4 mx-auto">
+                                <a href="javascript:void(0);" data-dismiss="modal" data-toggle="modal" data-target="#view_receipt" class="themebtn btn_center">Submit</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade cs_modal" id="view_receipt" aria-modal="true" role="dialog">
+        <div class="modal-dialog modal-dialog-centered modal-md">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header border-0">
+                    <!-- <img src="images/logo.svg" alt="logo" class="m-logo"> -->
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body pt-0">
+                    <div class="s-recipt">
+                        <div class="row">
+                            <div class="col-md-8 mx-auto text-center">
+                                <img src="img/hands.svg" alt="">
+                                
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-12 black-text text-center">
+                                Your Payment has been paid <br> Amount : <span class="fw-bold">RS 4500</span>
+                            </div>
+                        </div>
+                        <div class="pb-4 pt-3 row cs_row">
+                            <div class="mb-2 col-sm-4 mx-auto">
+                                <a href="pdf-html/receipt.html" class="themebtn btn_center">View Receipt</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+
+            </div>
+        </div>
+    </div>
     <div class="modal fade cs_modal" id="access_location" aria-modal="true" role="dialog">
         <div class="modal-dialog modal-dialog-centered modal-md">
             <div class="modal-content">
